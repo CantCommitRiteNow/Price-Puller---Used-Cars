@@ -109,12 +109,14 @@ def main():
         'S4': 'https://www.autotrader.com/rest/lsc/crawl/modelyears?marketExtension=include&numRecords=24&searchRadius=500&showAccelerateBanner=false&sortBy=derivedpriceASC&startYear=2013&zip=32216&allListingType=all-cars&makeCode=AUDI&modelCode=S4&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D',
         'Q5':'https://www.autotrader.com/rest/lsc/crawl/modelyears?mileage=75000&searchRadius=0&sortBy=derivedpriceASC&zip=32216&allListingType=all-cars&makeCode=AUDI&modelCode=Q5&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D',
         'RS7':'https://www.autotrader.com/rest/lsc/crawl/modelyears?marketExtension=include&mileage=75000&numRecords=24&searchRadius=0&sortBy=derivedpriceASC&zip=02861&allListingType=all-cars&makeCode=AUDI&modelCode=AUDIRS7&city=Pawtucket&state=RI&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D&facetMinCount=3&channel=ATC',
+        'Etron': 'https://www.autotrader.com/rest/lsc/crawl/modelyears?searchRadius=0&sortBy=derivedpriceASC&zip=32216&allListingType=all-cars&makeCode=AUDI&modelCode=AUDRSETRON&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D',
 
         'M3': 'https://www.autotrader.com/rest/lsc/crawl/modelyears?marketExtension=include&numRecords=24&searchRadius=0&sortBy=derivedpriceASC&transmissionCode=MAN&zip=32216&allListingType=all-cars&vehicleStyleCode=COUPE&engineCode=8CLDR&makeCode=BMW&modelCode=M3&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D',
         'M5': 'https://www.autotrader.com/rest/lsc/crawl/modelyears?endYear=2003&marketExtension=include&numRecords=24&searchRadius=0&sortBy=derivedpriceASC&startYear=2000&zip=32216&allListingType=all-cars&extColorSimple=SILVER&makeCode=BMW&modelCode=M5&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D&facetMinCount=3&channel=ATC',
 
-        'Corvette':'https://www.autotrader.com/rest/lsc/crawl/modelyears?searchRadius=0&zip=32216&allListingType=all-cars&vehicleStyleCode=COUPE&makeCode=CHEV&modelCode=CORV&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D',
-        
+        'Corvette Z06':'https://www.autotrader.com/rest/lsc/crawl/modelyears?zip=32216&allListingType=all-cars&makeCode=CHEV&modelCode=CORV&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D&searchRadius=50',
+        'Corvette ZR1':'https://www.autotrader.com/rest/lsc/crawl/modelyears?searchRadius=0&zip=32216&allListingType=all-cars&makeCode=CHEV&modelCode=CORV&trimCode=CORV%7CZR1&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D',
+
         '458 Italia': 'https://www.autotrader.com/rest/lsc/crawl/modelyears?searchRadius=0&zip=32216&allListingType=all-cars&vehicleStyleCode=COUPE&makeCode=FER&modelCode=458ITALIA&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D',
 
         'F250': 'https://www.autotrader.com/rest/lsc/crawl/modelyears?searchRadius=0&zip=32216&allListingType=all-cars&makeCode=FORD&modelCode=F250&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D&facetMinCount=3&channel=ATC',
@@ -140,9 +142,15 @@ def main():
         'GT4RS': 'https://www.autotrader.com/rest/lsc/crawl/modelyears?searchRadius=0&zip=32216&allListingType=all-cars&makeCode=POR&modelCode=POR718CAY&trimCode=POR718CAY%7CGT4+RS&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D',
         'Cayenne': 'https://www.autotrader.com/rest/lsc/crawl/modelyears?searchRadius=0&zip=32216&allListingType=all-cars&makeCode=POR&modelCode=CAYENNE&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D',
         'Macan': 'https://www.autotrader.com/rest/lsc/crawl/modelyears?searchRadius=0&zip=32216&allListingType=all-cars&engineCode=6CLDR&makeCode=POR&modelCode=PORMACAN&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D',
+        'Taycan': 'https://www.autotrader.com/rest/lsc/crawl/modelyears?searchRadius=0&zip=32216&allListingType=all-cars&makeCode=POR&modelCode=PORTAYCAN&trimCode=PORTAYCAN%7CTurbo+S&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D',
 
+        'BRZ':"https://www.autotrader.com/rest/lsc/crawl/modelyears?searchRadius=0&sortBy=derivedpriceASC&zip=32216&allListingType=all-cars&makeCode=SUB&modelCode=SUBBRZ&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D",
+
+        'CyberTruck': 'https://www.autotrader.com/rest/lsc/crawl/modelyears?searchRadius=0&zip=32216&allListingType=all-cars&makeCode=TESLA&modelCode=TESCYBERTR&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D',
         'Model 3': 'https://www.autotrader.com/rest/lsc/crawl/modelyears?searchRadius=0&sortBy=derivedpriceASC&zip=02861&allListingType=all-cars&makeCode=TESLA&modelCode=TESMOD3&trimCode=TESMOD3%7CPerformance&city=Pawtucket&state=RI&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D',
-        'Model X': 'https://www.autotrader.com/rest/lsc/crawl/modelyears?searchRadius=0&sortBy=derivedpriceASC&zip=02861&allListingType=all-cars&makeCode=TESLA&modelCode=TESMODX&trimCode=TESMODX%7CP100D&city=Pawtucket&state=RI&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D'
+        'Model X': 'https://www.autotrader.com/rest/lsc/crawl/modelyears?searchRadius=0&sortBy=derivedpriceASC&zip=02861&allListingType=all-cars&makeCode=TESLA&modelCode=TESMODX&trimCode=TESMODX%7CP100D&city=Pawtucket&state=RI&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D',
+        'Model Y': 'https://www.autotrader.com/rest/lsc/crawl/modelyears?searchRadius=0&zip=32216&allListingType=all-cars&makeCode=TESLA&modelCode=TESMODY&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D',
+        'Model S': 'https://www.autotrader.com/rest/lsc/crawl/modelyears?searchRadius=0&zip=32216&allListingType=all-cars&makeCode=POR&modelCode=PORTAYCAN&trimCode=PORTAYCAN%7CTurbo+S&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D'
     }
 
     # Iterate over the URLs and process each one
