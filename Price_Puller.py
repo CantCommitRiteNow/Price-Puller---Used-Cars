@@ -3,18 +3,50 @@ import pandas as pd
 from datetime import datetime, date
 import os
 import logging
-from openpyxl import load_workbook
+import sys
+import time
+from openpyxl import load_workbook, Workbook
 from openpyxl.styles import Font
+from urllib3.util import Retry
 from requests.adapters import HTTPAdapter
-from requests.packages.urllib3.util.retry import Retry
-from openpyxl import Workbook
 
-# Set up logging
+# Setup logging
 logging.basicConfig(
     filename='price_puller.log',
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
+
+def load_urls(file_path):
+    urls = {}
+    try:
+        with open(file_path, 'r') as f:
+            for line in f:
+                line = line.strip()
+                if not line or line.startswith('#') or ',' not in line:
+                    continue
+                sheet_name, url = line.split(',', 1)
+                urls[sheet_name.strip()] = url.strip()
+        logging.info(f"✅ Loaded {len(urls)} URLs from {file_path}")
+    except Exception as e:
+        logging.exception(f"🚨 Failed to load URLs: {e}")
+    return urls
+
+def print_progress_bar(iteration, total, prefix='', suffix='', length=50, fill='█', start_time=None):
+    percent = f"{100 * (iteration / float(total)):.1f}"
+    filled_length = int(length * iteration // total)
+    bar = fill * filled_length + '-' * (length - filled_length)
+
+    if start_time and iteration > 0:
+        elapsed = time.time() - start_time
+        eta_seconds = (elapsed / iteration) * (total - iteration)
+        eta_formatted = time.strftime("%M:%S", time.gmtime(eta_seconds))
+        eta_display = f" | ETA: {eta_formatted}"
+    else:
+        eta_display = ""
+
+    sys.stdout.write(f'\r{prefix} |{bar}| {percent}% {suffix}{eta_display}')
+    sys.stdout.flush()
 
 def get_avg_price(url, sheet_name, output_file='Price_Puller.xlsx'):
     headers = {
@@ -31,9 +63,7 @@ def get_avg_price(url, sheet_name, output_file='Price_Puller.xlsx'):
 
     try:
         response = session.get(url, headers=headers)
-
-        if response.status_code != 200:
-            return
+        response.raise_for_status()
 
         data = response.json()
         links = data.get('links', [])
@@ -41,7 +71,7 @@ def get_avg_price(url, sheet_name, output_file='Price_Puller.xlsx'):
         today_date = date.today()
         today_str = today_date.strftime('%d%b%Y').upper()
 
-        row = {'Date': today_str}
+        row_data = {'Date': today_str}
         price_columns = []
 
         for link in links:
@@ -49,12 +79,12 @@ def get_avg_price(url, sheet_name, output_file='Price_Puller.xlsx'):
             avg_price = link.get('avgPrice')
             if year and avg_price:
                 year = int(year)
-                row[year] = avg_price
+                row_data[year] = avg_price
                 price_columns.append(year)
 
-        # Calculate row number from anchor date (22Apr2025)
+        # Calculate row number based on anchor date
         anchor_date = datetime.strptime("22Apr2025", "%d%b%Y").date()
-        delta_days = (today_date - anchor_date).days + 2  # Row 2 = anchor
+        delta_days = (today_date - anchor_date).days + 2
 
         # Load or create workbook
         if os.path.exists(output_file):
@@ -62,100 +92,73 @@ def get_avg_price(url, sheet_name, output_file='Price_Puller.xlsx'):
         else:
             wb = Workbook()
 
-        # Get or create the sheet
+        # Load or create sheet
         if sheet_name in wb.sheetnames:
             ws = wb[sheet_name]
         else:
             ws = wb.create_sheet(sheet_name)
 
-        # Set headers in first row if missing
+        # Setup headers
         existing_headers = [cell.value for cell in ws[1] if cell.value is not None]
-        all_headers = ['Date'] + sorted(price_columns)
-
         if not existing_headers:
-            for col_index, header in enumerate(all_headers, start=1):
-                cell = ws.cell(row=1, column=col_index)
+            all_headers = ['Date'] + sorted(price_columns)
+            for idx, header in enumerate(all_headers, start=1):
+                cell = ws.cell(row=1, column=idx)
                 cell.value = header
                 cell.font = Font(bold=True)
         else:
-            all_headers = existing_headers
+            # Add new headers if necessary
+            missing_headers = [year for year in price_columns if year not in existing_headers]
+            if missing_headers:
+                for year in sorted(missing_headers):
+                    new_col = ws.max_column + 1
+                    ws.cell(row=1, column=new_col).value = year
+                    ws.cell(row=1, column=new_col).font = Font(bold=True)
 
-        # Map header to column index
+            # Update headers and map
+            all_headers = [cell.value for cell in ws[1] if cell.value is not None]
+
         header_map = {header: idx + 1 for idx, header in enumerate(all_headers)}
 
-        # Write today's date
+        # Write data
         ws.cell(row=delta_days, column=header_map['Date']).value = today_str
 
-        # Write prices to correct columns
         for year in price_columns:
             col_index = header_map.get(year)
             if col_index:
-                value = row[year]
+                value = row_data[year]
                 cell = ws.cell(row=delta_days, column=col_index)
                 cell.value = value
-                cell.number_format = '"$"#,##0.00'
+                if isinstance(value, (int, float)):
+                    cell.number_format = '"$"#,##0.00'
 
         wb.save(output_file)
+        logging.info(f"✅ Successfully updated sheet '{sheet_name}' for {today_str}")
 
     except Exception as e:
-
-        logging.exception(f"🚨 Error during request for {sheet_name}: {e}")
+        logging.exception(f"🚨 Error processing {sheet_name}: {e}")
 
 def main():
-    # URLs for the different cars, sorted by car make
-    urls = {
-        'R8': 'https://www.autotrader.com/rest/lsc/crawl/modelyears?searchRadius=0&sortBy=derivedpriceASC&zip=32216&allListingType=all-cars&vehicleStyleCode=COUPE&engineCode=10CLDR&makeCode=AUDI&modelCode=R8&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D',
-        'RS4': 'https://www.autotrader.com/rest/lsc/crawl/modelyears?marketExtension=include&numRecords=24&searchRadius=0&showAccelerateBanner=false&sortBy=derivedpriceASC&zip=32216&allListingType=all-cars&makeCode=AUDI&modelCode=RS4&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D',
-        'S4': 'https://www.autotrader.com/rest/lsc/crawl/modelyears?marketExtension=include&numRecords=24&searchRadius=500&showAccelerateBanner=false&sortBy=derivedpriceASC&startYear=2013&zip=32216&allListingType=all-cars&makeCode=AUDI&modelCode=S4&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D',
-        'Q5':'https://www.autotrader.com/rest/lsc/crawl/modelyears?mileage=75000&searchRadius=0&sortBy=derivedpriceASC&zip=32216&allListingType=all-cars&makeCode=AUDI&modelCode=Q5&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D',
-        'RS7':'https://www.autotrader.com/rest/lsc/crawl/modelyears?marketExtension=include&mileage=75000&numRecords=24&searchRadius=0&sortBy=derivedpriceASC&zip=02861&allListingType=all-cars&makeCode=AUDI&modelCode=AUDIRS7&city=Pawtucket&state=RI&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D&facetMinCount=3&channel=ATC',
-        'Etron': 'https://www.autotrader.com/rest/lsc/crawl/modelyears?searchRadius=0&sortBy=derivedpriceASC&zip=32216&allListingType=all-cars&makeCode=AUDI&modelCode=AUDRSETRON&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D',
+    url_file = 'car_urls.txt'
+    urls = load_urls(url_file)
 
-        'M3': 'https://www.autotrader.com/rest/lsc/crawl/modelyears?marketExtension=include&numRecords=24&searchRadius=0&sortBy=derivedpriceASC&transmissionCode=MAN&zip=32216&allListingType=all-cars&vehicleStyleCode=COUPE&engineCode=8CLDR&makeCode=BMW&modelCode=M3&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D',
-        'M5': 'https://www.autotrader.com/rest/lsc/crawl/modelyears?endYear=2003&marketExtension=include&numRecords=24&searchRadius=0&sortBy=derivedpriceASC&startYear=2000&zip=32216&allListingType=all-cars&extColorSimple=SILVER&makeCode=BMW&modelCode=M5&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D&facetMinCount=3&channel=ATC',
+    if not urls:
+        logging.error("🚨 No URLs to process. Exiting.")
+        return
 
-        'Corvette Z06':'https://www.autotrader.com/rest/lsc/crawl/modelyears?zip=32216&allListingType=all-cars&makeCode=CHEV&modelCode=CORV&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D&searchRadius=50',
-        'Corvette ZR1':'https://www.autotrader.com/rest/lsc/crawl/modelyears?searchRadius=0&zip=32216&allListingType=all-cars&makeCode=CHEV&modelCode=CORV&trimCode=CORV%7CZR1&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D',
+    total = len(urls)
+    completed = 0
+    start_time = time.time()
 
-        '458 Italia': 'https://www.autotrader.com/rest/lsc/crawl/modelyears?searchRadius=0&zip=32216&allListingType=all-cars&vehicleStyleCode=COUPE&makeCode=FER&modelCode=458ITALIA&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D',
+    print("Starting price pulling...\n")
+    print_progress_bar(0, total, prefix='Progress', suffix='Complete', length=50, start_time=start_time)
 
-        'F250': 'https://www.autotrader.com/rest/lsc/crawl/modelyears?searchRadius=0&zip=32216&allListingType=all-cars&makeCode=FORD&modelCode=F250&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D&facetMinCount=3&channel=ATC',
-        'GT':'https://www.autotrader.com/rest/lsc/crawl/modelyears?searchRadius=0&zip=32216&allListingType=all-cars&makeCode=FORD&modelCode=GT&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D',
-        
-        'S2000': 'https://www.autotrader.com/rest/lsc/crawl/modelyears?searchRadius=0&zip=32216&allListingType=all-cars&makeCode=HONDA&modelCode=S2000&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D&facetMinCount=3&channel=ATC',
-
-        'Wrangler': 'https://www.autotrader.com/rest/lsc/crawl/modelyears?searchRadius=0&zip=32216&allListingType=all-cars&makeCode=JEEP&modelCode=WRANGLER&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D&facetMinCount=3&channel=ATC',
-
-        'Aventador': 'https://www.autotrader.com/rest/lsc/crawl/modelyears?searchRadius=0&zip=32216&allListingType=all-cars&makeCode=LAM&modelCode=AVENT&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D',
-        'Gallardo': 'https://www.autotrader.com/rest/lsc/crawl/modelyears?searchRadius=0&sortBy=derivedpriceASC&zip=32216&allListingType=all-cars&vehicleStyleCode=COUPE&makeCode=LAM&modelCode=GALLARDO&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D',
-        'Huracan': 'https://www.autotrader.com/rest/lsc/crawl/modelyears?searchRadius=0&zip=32216&allListingType=all-cars&makeCode=LAM&modelCode=LAMHURACAN&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D&facetMinCount=3&channel=ATC',
-        'Murcielago': 'https://www.autotrader.com/rest/lsc/crawl/modelyears?searchRadius=0&sortBy=derivedpriceASC&startYear=2007&zip=32216&allListingType=all-cars&makeCode=LAM&modelCode=MURCIELAGO&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D',
-        'Urus': 'https://www.autotrader.com/rest/lsc/crawl/modelyears?searchRadius=0&zip=32216&allListingType=all-cars&makeCode=LAM&modelCode=LAMURUS&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D',
-
-        'AMG':'https://www.autotrader.com/rest/lsc/crawl/modelyears?searchRadius=0&zip=32216&allListingType=all-cars&vehicleStyleCode=COUPE&makeCode=MB&modelCode=MBAMGGT&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D',
-        'C63 AMG': 'https://www.autotrader.com/rest/lsc/crawl/modelyears?searchRadius=0&zip=32216&allListingType=all-cars&makeCode=MB&seriesCode=C_CLASS&modelCode=C63AMG&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D',
-
-        'Carrera S': 'https://www.autotrader.com/rest/lsc/crawl/modelyears?marketExtension=include&mileage=75000&numRecords=24&searchRadius=0&sortBy=derivedpriceASC&startYear=2006&transmissionCode=MAN&zip=32216&allListingType=all-cars&vehicleStyleCode=COUPE&makeCode=POR&modelCode=911&trimCode=911%7CCarrera+S&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D',
-        'GT3': 'https://www.autotrader.com/rest/lsc/crawl/modelyears?endYear=2024&firstRecord=0&marketExtension=include&numRecords=100&searchRadius=0&sortBy=derivedpriceASC&startYear=2004&zip=32216&makeCode=POR&modelCode=911&trimCode=911%7CGT3&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D&listingType=USED',
-        'GT3RS': 'https://www.autotrader.com/rest/lsc/crawl/modelyears?searchRadius=0&zip=32216&allListingType=all-cars&makeCode=POR&modelCode=911&trimCode=911%7CGT3+RS&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D',
-        'GT4': 'https://www.autotrader.com/rest/lsc/crawl/modelyears?searchRadius=0&zip=32216&allListingType=all-cars&makeCode=POR&modelCode=POR718CAY&trimCode=POR718CAY%7CGT4&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D',
-        'GT4RS': 'https://www.autotrader.com/rest/lsc/crawl/modelyears?searchRadius=0&zip=32216&allListingType=all-cars&makeCode=POR&modelCode=POR718CAY&trimCode=POR718CAY%7CGT4+RS&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D',
-        'Cayenne': 'https://www.autotrader.com/rest/lsc/crawl/modelyears?searchRadius=0&zip=32216&allListingType=all-cars&makeCode=POR&modelCode=CAYENNE&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D',
-        'Macan': 'https://www.autotrader.com/rest/lsc/crawl/modelyears?searchRadius=0&zip=32216&allListingType=all-cars&engineCode=6CLDR&makeCode=POR&modelCode=PORMACAN&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D',
-        'Taycan': 'https://www.autotrader.com/rest/lsc/crawl/modelyears?searchRadius=0&zip=32216&allListingType=all-cars&makeCode=POR&modelCode=PORTAYCAN&trimCode=PORTAYCAN%7CTurbo+S&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D',
-
-        'BRZ':"https://www.autotrader.com/rest/lsc/crawl/modelyears?searchRadius=0&sortBy=derivedpriceASC&zip=32216&allListingType=all-cars&makeCode=SUB&modelCode=SUBBRZ&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D",
-
-        'CyberTruck': 'https://www.autotrader.com/rest/lsc/crawl/modelyears?searchRadius=0&zip=32216&allListingType=all-cars&makeCode=TESLA&modelCode=TESCYBERTR&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D',
-        'Model 3': 'https://www.autotrader.com/rest/lsc/crawl/modelyears?searchRadius=0&sortBy=derivedpriceASC&zip=02861&allListingType=all-cars&makeCode=TESLA&modelCode=TESMOD3&trimCode=TESMOD3%7CPerformance&city=Pawtucket&state=RI&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D',
-        'Model X': 'https://www.autotrader.com/rest/lsc/crawl/modelyears?searchRadius=0&sortBy=derivedpriceASC&zip=02861&allListingType=all-cars&makeCode=TESLA&modelCode=TESMODX&trimCode=TESMODX%7CP100D&city=Pawtucket&state=RI&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D',
-        'Model Y': 'https://www.autotrader.com/rest/lsc/crawl/modelyears?searchRadius=0&zip=32216&allListingType=all-cars&makeCode=TESLA&modelCode=TESMODY&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D',
-        'Model S': 'https://www.autotrader.com/rest/lsc/crawl/modelyears?searchRadius=0&zip=32216&allListingType=all-cars&makeCode=POR&modelCode=PORTAYCAN&trimCode=PORTAYCAN%7CTurbo+S&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D'
-    }
-
-    # Iterate over the URLs and process each one
     for sheet_name, url in urls.items():
         get_avg_price(url, sheet_name)
+        completed += 1
+        print_progress_bar(completed, total, prefix='Progress', suffix='Complete', length=50, start_time=start_time)
+
+    print("\n✅ All done!")
 
 if __name__ == '__main__':
     main()
