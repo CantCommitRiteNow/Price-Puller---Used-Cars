@@ -4584,3 +4584,747 @@ PermissionError: [Errno 13] Permission denied: 'Price_Puller.xlsx'
 2025-06-08 17:04:03,961 - INFO - \u2705 Successfully updated sheet 'Model Y' for 08JUN2025
 2025-06-08 17:04:04,837 - INFO - \u2705 Successfully updated sheet 'Model S' for 08JUN2025
 2025-06-08 17:04:06,056 - INFO - \u2705 Successfully updated sheet 'RAV4' for 08JUN2025
+2025-06-09 08:30:44,366 - INFO - \u2705 Loaded 44 URLs from car_urls.txt
+2025-06-09 08:30:46,623 - INFO - \u2705 Successfully updated sheet 'R8' for 09JUN2025
+2025-06-09 08:30:48,715 - INFO - \u2705 Successfully updated sheet 'RS4' for 09JUN2025
+2025-06-09 08:30:51,186 - INFO - \u2705 Successfully updated sheet 'S4' for 09JUN2025
+2025-06-09 08:30:53,316 - INFO - \u2705 Successfully updated sheet 'Q5' for 09JUN2025
+2025-06-09 08:30:55,625 - INFO - \u2705 Successfully updated sheet 'SQ5' for 09JUN2025
+2025-06-09 08:30:57,380 - INFO - \u2705 Successfully updated sheet 'RS7' for 09JUN2025
+2025-06-09 08:30:59,188 - INFO - \u2705 Successfully updated sheet 'Etron' for 09JUN2025
+2025-06-09 08:31:00,870 - INFO - \u2705 Successfully updated sheet 'M3' for 09JUN2025
+2025-06-09 08:31:02,097 - INFO - \u2705 Successfully updated sheet 'M5' for 09JUN2025
+2025-06-09 08:31:03,264 - INFO - \u2705 Successfully updated sheet 'Corvette Z06' for 09JUN2025
+2025-06-09 08:31:06,587 - INFO - \u2705 Successfully updated sheet 'Corvette ZR1' for 09JUN2025
+2025-06-09 08:31:11,528 - INFO - \u2705 Successfully updated sheet 'Charger' for 09JUN2025
+2025-06-09 08:31:18,268 - INFO - \u2705 Successfully updated sheet '458 Italia' for 09JUN2025
+2025-06-09 08:31:21,499 - INFO - \u2705 Successfully updated sheet 'F250' for 09JUN2025
+2025-06-09 08:31:26,124 - INFO - \u2705 Successfully updated sheet 'GT' for 09JUN2025
+2025-06-09 08:31:29,760 - INFO - \u2705 Successfully updated sheet 'Accord' for 09JUN2025
+2025-06-09 08:31:32,838 - INFO - \u2705 Successfully updated sheet 'S2000' for 09JUN2025
+2025-06-09 08:31:35,273 - INFO - \u2705 Successfully updated sheet 'Wrangler' for 09JUN2025
+2025-06-09 08:31:37,255 - INFO - \u2705 Successfully updated sheet 'Aventador' for 09JUN2025
+2025-06-09 08:31:38,508 - INFO - \u2705 Successfully updated sheet 'Gallardo' for 09JUN2025
+2025-06-09 08:31:39,601 - INFO - \u2705 Successfully updated sheet 'Huracan' for 09JUN2025
+2025-06-09 08:31:40,640 - INFO - \u2705 Successfully updated sheet 'Murcielago' for 09JUN2025
+2025-06-09 08:31:41,682 - INFO - \u2705 Successfully updated sheet 'Urus' for 09JUN2025
+2025-06-09 08:31:42,681 - INFO - \u2705 Successfully updated sheet 'AMG' for 09JUN2025
+2025-06-09 08:31:43,933 - INFO - \u2705 Successfully updated sheet 'C63 AMG' for 09JUN2025
+2025-06-09 08:31:45,331 - INFO - \u2705 Successfully updated sheet 'G Wagon' for 09JUN2025
+2025-06-09 08:31:46,491 - INFO - \u2705 Successfully updated sheet 'S550' for 09JUN2025
+2025-06-09 08:31:47,873 - INFO - \u2705 Successfully updated sheet 'Carrera S' for 09JUN2025
+2025-06-09 08:31:49,130 - INFO - \u2705 Successfully updated sheet 'GT3' for 09JUN2025
+2025-06-09 08:31:50,531 - INFO - \u2705 Successfully updated sheet 'GT3RS' for 09JUN2025
+2025-06-09 08:31:52,074 - INFO - \u2705 Successfully updated sheet 'GT4' for 09JUN2025
+2025-06-09 08:31:53,081 - INFO - \u2705 Successfully updated sheet 'GT4RS' for 09JUN2025
+2025-06-09 08:31:54,092 - INFO - \u2705 Successfully updated sheet 'Cayenne' for 09JUN2025
+2025-06-09 08:31:55,283 - INFO - \u2705 Successfully updated sheet 'Macan' for 09JUN2025
+2025-06-09 08:31:56,402 - INFO - \u2705 Successfully updated sheet 'Taycan' for 09JUN2025
+2025-06-09 08:31:57,721 - INFO - \u2705 Successfully updated sheet '718 Cayman' for 09JUN2025
+2025-06-09 08:31:59,400 - INFO - \u2705 Successfully updated sheet '718 Boxster' for 09JUN2025
+2025-06-09 08:32:00,568 - INFO - \u2705 Successfully updated sheet 'BRZ' for 09JUN2025
+2025-06-09 08:32:01,674 - INFO - \u2705 Successfully updated sheet 'CyberTruck' for 09JUN2025
+2025-06-09 08:32:02,865 - INFO - \u2705 Successfully updated sheet 'Model 3' for 09JUN2025
+2025-06-09 08:32:04,102 - INFO - \u2705 Successfully updated sheet 'Model X' for 09JUN2025
+2025-06-09 08:32:05,254 - INFO - \u2705 Successfully updated sheet 'Model Y' for 09JUN2025
+2025-06-09 08:32:06,446 - INFO - \u2705 Successfully updated sheet 'Model S' for 09JUN2025
+2025-06-09 08:32:07,459 - INFO - \u2705 Successfully updated sheet 'RAV4' for 09JUN2025
+2025-06-09 17:42:08,688 - INFO - \u2705 Loaded 44 URLs from car_urls.txt
+2025-06-09 17:42:09,736 - INFO - \u2705 Successfully updated sheet 'R8' for 09JUN2025
+2025-06-09 17:42:10,888 - INFO - \u2705 Successfully updated sheet 'RS4' for 09JUN2025
+2025-06-09 17:42:12,066 - INFO - \u2705 Successfully updated sheet 'S4' for 09JUN2025
+2025-06-09 17:42:13,213 - INFO - \u2705 Successfully updated sheet 'Q5' for 09JUN2025
+2025-06-09 17:42:15,053 - INFO - \u2705 Successfully updated sheet 'SQ5' for 09JUN2025
+2025-06-09 17:42:16,289 - INFO - \u2705 Successfully updated sheet 'RS7' for 09JUN2025
+2025-06-09 17:42:17,529 - INFO - \u2705 Successfully updated sheet 'Etron' for 09JUN2025
+2025-06-09 17:42:18,543 - INFO - \u2705 Successfully updated sheet 'M3' for 09JUN2025
+2025-06-09 17:42:19,541 - INFO - \u2705 Successfully updated sheet 'M5' for 09JUN2025
+2025-06-09 17:42:20,505 - INFO - \u2705 Successfully updated sheet 'Corvette Z06' for 09JUN2025
+2025-06-09 17:42:21,497 - INFO - \u2705 Successfully updated sheet 'Corvette ZR1' for 09JUN2025
+2025-06-09 17:42:22,668 - INFO - \u2705 Successfully updated sheet 'Charger' for 09JUN2025
+2025-06-09 17:42:23,841 - INFO - \u2705 Successfully updated sheet '458 Italia' for 09JUN2025
+2025-06-09 17:42:25,048 - INFO - \u2705 Successfully updated sheet 'F250' for 09JUN2025
+2025-06-09 17:42:26,205 - INFO - \u2705 Successfully updated sheet 'GT' for 09JUN2025
+2025-06-09 17:42:27,307 - INFO - \u2705 Successfully updated sheet 'Accord' for 09JUN2025
+2025-06-09 17:42:29,709 - INFO - \u2705 Successfully updated sheet 'S2000' for 09JUN2025
+2025-06-09 17:42:31,529 - INFO - \u2705 Successfully updated sheet 'Wrangler' for 09JUN2025
+2025-06-09 17:42:33,710 - INFO - \u2705 Successfully updated sheet 'Aventador' for 09JUN2025
+2025-06-09 17:42:35,259 - INFO - \u2705 Successfully updated sheet 'Gallardo' for 09JUN2025
+2025-06-09 17:42:36,547 - INFO - \u2705 Successfully updated sheet 'Huracan' for 09JUN2025
+2025-06-09 17:42:38,278 - INFO - \u2705 Successfully updated sheet 'Murcielago' for 09JUN2025
+2025-06-09 17:42:40,383 - INFO - \u2705 Successfully updated sheet 'Urus' for 09JUN2025
+2025-06-09 17:42:42,314 - INFO - \u2705 Successfully updated sheet 'AMG' for 09JUN2025
+2025-06-09 17:42:44,378 - INFO - \u2705 Successfully updated sheet 'C63 AMG' for 09JUN2025
+2025-06-09 17:42:46,558 - INFO - \u2705 Successfully updated sheet 'G Wagon' for 09JUN2025
+2025-06-09 17:42:49,258 - INFO - \u2705 Successfully updated sheet 'S550' for 09JUN2025
+2025-06-09 17:42:52,174 - INFO - \u2705 Successfully updated sheet 'Carrera S' for 09JUN2025
+2025-06-09 17:42:55,399 - INFO - \u2705 Successfully updated sheet 'GT3' for 09JUN2025
+2025-06-09 17:42:58,303 - INFO - \u2705 Successfully updated sheet 'GT3RS' for 09JUN2025
+2025-06-09 17:43:00,236 - INFO - \u2705 Successfully updated sheet 'GT4' for 09JUN2025
+2025-06-09 17:43:01,591 - INFO - \u2705 Successfully updated sheet 'GT4RS' for 09JUN2025
+2025-06-09 17:43:02,749 - INFO - \u2705 Successfully updated sheet 'Cayenne' for 09JUN2025
+2025-06-09 17:43:03,786 - INFO - \u2705 Successfully updated sheet 'Macan' for 09JUN2025
+2025-06-09 17:43:04,798 - INFO - \u2705 Successfully updated sheet 'Taycan' for 09JUN2025
+2025-06-09 17:43:05,759 - INFO - \u2705 Successfully updated sheet '718 Cayman' for 09JUN2025
+2025-06-09 17:43:06,741 - INFO - \u2705 Successfully updated sheet '718 Boxster' for 09JUN2025
+2025-06-09 17:43:07,726 - INFO - \u2705 Successfully updated sheet 'BRZ' for 09JUN2025
+2025-06-09 17:43:08,845 - INFO - \u2705 Successfully updated sheet 'CyberTruck' for 09JUN2025
+2025-06-09 17:43:10,225 - INFO - \u2705 Successfully updated sheet 'Model 3' for 09JUN2025
+2025-06-09 17:43:11,632 - INFO - \u2705 Successfully updated sheet 'Model X' for 09JUN2025
+2025-06-09 17:43:12,963 - INFO - \u2705 Successfully updated sheet 'Model Y' for 09JUN2025
+2025-06-09 17:43:14,213 - INFO - \u2705 Successfully updated sheet 'Model S' for 09JUN2025
+2025-06-09 17:43:15,303 - INFO - \u2705 Successfully updated sheet 'RAV4' for 09JUN2025
+2025-06-10 08:37:57,482 - INFO - \u2705 Loaded 44 URLs from car_urls.txt
+2025-06-10 08:37:58,811 - INFO - \u2705 Successfully updated sheet 'R8' for 10JUN2025
+2025-06-10 08:37:59,845 - INFO - \u2705 Successfully updated sheet 'RS4' for 10JUN2025
+2025-06-10 08:38:01,022 - INFO - \u2705 Successfully updated sheet 'S4' for 10JUN2025
+2025-06-10 08:38:02,868 - INFO - \u2705 Successfully updated sheet 'Q5' for 10JUN2025
+2025-06-10 08:38:04,083 - INFO - \u2705 Successfully updated sheet 'SQ5' for 10JUN2025
+2025-06-10 08:38:05,301 - INFO - \u2705 Successfully updated sheet 'RS7' for 10JUN2025
+2025-06-10 08:38:06,386 - INFO - \u2705 Successfully updated sheet 'Etron' for 10JUN2025
+2025-06-10 08:38:07,482 - INFO - \u2705 Successfully updated sheet 'M3' for 10JUN2025
+2025-06-10 08:38:08,447 - INFO - \u2705 Successfully updated sheet 'M5' for 10JUN2025
+2025-06-10 08:38:09,402 - INFO - \u2705 Successfully updated sheet 'Corvette Z06' for 10JUN2025
+2025-06-10 08:38:10,425 - INFO - \u2705 Successfully updated sheet 'Corvette ZR1' for 10JUN2025
+2025-06-10 08:38:11,475 - INFO - \u2705 Successfully updated sheet 'Charger' for 10JUN2025
+2025-06-10 08:38:12,556 - INFO - \u2705 Successfully updated sheet '458 Italia' for 10JUN2025
+2025-06-10 08:38:13,588 - INFO - \u2705 Successfully updated sheet 'F250' for 10JUN2025
+2025-06-10 08:38:14,635 - INFO - \u2705 Successfully updated sheet 'GT' for 10JUN2025
+2025-06-10 08:38:15,621 - INFO - \u2705 Successfully updated sheet 'Accord' for 10JUN2025
+2025-06-10 08:38:16,544 - INFO - \u2705 Successfully updated sheet 'S2000' for 10JUN2025
+2025-06-10 08:38:17,848 - INFO - \u2705 Successfully updated sheet 'Wrangler' for 10JUN2025
+2025-06-10 08:38:19,015 - INFO - \u2705 Successfully updated sheet 'Aventador' for 10JUN2025
+2025-06-10 08:38:19,928 - INFO - \u2705 Successfully updated sheet 'Gallardo' for 10JUN2025
+2025-06-10 08:38:20,867 - INFO - \u2705 Successfully updated sheet 'Huracan' for 10JUN2025
+2025-06-10 08:38:21,810 - INFO - \u2705 Successfully updated sheet 'Murcielago' for 10JUN2025
+2025-06-10 08:38:22,710 - INFO - \u2705 Successfully updated sheet 'Urus' for 10JUN2025
+2025-06-10 08:38:23,772 - INFO - \u2705 Successfully updated sheet 'AMG' for 10JUN2025
+2025-06-10 08:38:24,713 - INFO - \u2705 Successfully updated sheet 'C63 AMG' for 10JUN2025
+2025-06-10 08:38:26,054 - INFO - \u2705 Successfully updated sheet 'G Wagon' for 10JUN2025
+2025-06-10 08:38:27,073 - INFO - \u2705 Successfully updated sheet 'S550' for 10JUN2025
+2025-06-10 08:38:27,994 - INFO - \u2705 Successfully updated sheet 'Carrera S' for 10JUN2025
+2025-06-10 08:38:28,960 - INFO - \u2705 Successfully updated sheet 'GT3' for 10JUN2025
+2025-06-10 08:38:29,937 - INFO - \u2705 Successfully updated sheet 'GT3RS' for 10JUN2025
+2025-06-10 08:38:30,845 - INFO - \u2705 Successfully updated sheet 'GT4' for 10JUN2025
+2025-06-10 08:38:31,752 - INFO - \u2705 Successfully updated sheet 'GT4RS' for 10JUN2025
+2025-06-10 08:38:32,782 - INFO - \u2705 Successfully updated sheet 'Cayenne' for 10JUN2025
+2025-06-10 08:38:33,752 - INFO - \u2705 Successfully updated sheet 'Macan' for 10JUN2025
+2025-06-10 08:38:34,784 - INFO - \u2705 Successfully updated sheet 'Taycan' for 10JUN2025
+2025-06-10 08:38:36,145 - INFO - \u2705 Successfully updated sheet '718 Cayman' for 10JUN2025
+2025-06-10 08:38:38,340 - INFO - \u2705 Successfully updated sheet '718 Boxster' for 10JUN2025
+2025-06-10 08:38:40,363 - INFO - \u2705 Successfully updated sheet 'BRZ' for 10JUN2025
+2025-06-10 08:38:43,168 - INFO - \u2705 Successfully updated sheet 'CyberTruck' for 10JUN2025
+2025-06-10 08:38:44,983 - INFO - \u2705 Successfully updated sheet 'Model 3' for 10JUN2025
+2025-06-10 08:38:46,096 - INFO - \u2705 Successfully updated sheet 'Model X' for 10JUN2025
+2025-06-10 08:38:47,003 - INFO - \u2705 Successfully updated sheet 'Model Y' for 10JUN2025
+2025-06-10 08:38:48,068 - INFO - \u2705 Successfully updated sheet 'Model S' for 10JUN2025
+2025-06-10 08:38:48,986 - INFO - \u2705 Successfully updated sheet 'RAV4' for 10JUN2025
+2025-06-10 18:14:52,637 - INFO - \u2705 Loaded 44 URLs from car_urls.txt
+2025-06-10 18:14:54,509 - INFO - \u2705 Successfully updated sheet 'R8' for 10JUN2025
+2025-06-10 18:14:56,675 - INFO - \u2705 Successfully updated sheet 'RS4' for 10JUN2025
+2025-06-10 18:14:58,630 - INFO - \u2705 Successfully updated sheet 'S4' for 10JUN2025
+2025-06-10 18:15:01,488 - INFO - \u2705 Successfully updated sheet 'Q5' for 10JUN2025
+2025-06-10 18:15:03,438 - INFO - \u2705 Successfully updated sheet 'SQ5' for 10JUN2025
+2025-06-10 18:15:08,774 - INFO - \u2705 Successfully updated sheet 'RS7' for 10JUN2025
+2025-06-10 18:15:11,783 - INFO - \u2705 Successfully updated sheet 'Etron' for 10JUN2025
+2025-06-10 18:15:16,062 - INFO - \u2705 Successfully updated sheet 'M3' for 10JUN2025
+2025-06-10 18:15:18,252 - INFO - \u2705 Successfully updated sheet 'M5' for 10JUN2025
+2025-06-10 18:15:19,734 - INFO - \u2705 Successfully updated sheet 'Corvette Z06' for 10JUN2025
+2025-06-10 18:15:20,857 - INFO - \u2705 Successfully updated sheet 'Corvette ZR1' for 10JUN2025
+2025-06-10 18:15:22,149 - INFO - \u2705 Successfully updated sheet 'Charger' for 10JUN2025
+2025-06-10 18:15:23,400 - INFO - \u2705 Successfully updated sheet '458 Italia' for 10JUN2025
+2025-06-10 18:15:24,560 - INFO - \u2705 Successfully updated sheet 'F250' for 10JUN2025
+2025-06-10 18:15:26,066 - INFO - \u2705 Successfully updated sheet 'GT' for 10JUN2025
+2025-06-10 18:15:29,004 - INFO - \u2705 Successfully updated sheet 'Accord' for 10JUN2025
+2025-06-10 18:15:32,029 - INFO - \u2705 Successfully updated sheet 'S2000' for 10JUN2025
+2025-06-10 18:15:35,153 - INFO - \u2705 Successfully updated sheet 'Wrangler' for 10JUN2025
+2025-06-10 18:15:38,467 - INFO - \u2705 Successfully updated sheet 'Aventador' for 10JUN2025
+2025-06-10 18:15:40,860 - INFO - \u2705 Successfully updated sheet 'Gallardo' for 10JUN2025
+2025-06-10 18:15:42,180 - INFO - \u2705 Successfully updated sheet 'Huracan' for 10JUN2025
+2025-06-10 18:15:43,187 - INFO - \u2705 Successfully updated sheet 'Murcielago' for 10JUN2025
+2025-06-10 18:15:44,276 - INFO - \u2705 Successfully updated sheet 'Urus' for 10JUN2025
+2025-06-10 18:15:45,391 - INFO - \u2705 Successfully updated sheet 'AMG' for 10JUN2025
+2025-06-10 18:15:46,754 - INFO - \u2705 Successfully updated sheet 'C63 AMG' for 10JUN2025
+2025-06-10 18:15:48,115 - INFO - \u2705 Successfully updated sheet 'G Wagon' for 10JUN2025
+2025-06-10 18:15:49,134 - INFO - \u2705 Successfully updated sheet 'S550' for 10JUN2025
+2025-06-10 18:15:50,145 - INFO - \u2705 Successfully updated sheet 'Carrera S' for 10JUN2025
+2025-06-10 18:15:51,260 - INFO - \u2705 Successfully updated sheet 'GT3' for 10JUN2025
+2025-06-10 18:15:52,374 - INFO - \u2705 Successfully updated sheet 'GT3RS' for 10JUN2025
+2025-06-10 18:15:53,442 - INFO - \u2705 Successfully updated sheet 'GT4' for 10JUN2025
+2025-06-10 18:15:54,435 - INFO - \u2705 Successfully updated sheet 'GT4RS' for 10JUN2025
+2025-06-10 18:15:55,499 - INFO - \u2705 Successfully updated sheet 'Cayenne' for 10JUN2025
+2025-06-10 18:15:56,564 - INFO - \u2705 Successfully updated sheet 'Macan' for 10JUN2025
+2025-06-10 18:15:57,893 - INFO - \u2705 Successfully updated sheet 'Taycan' for 10JUN2025
+2025-06-10 18:15:59,134 - INFO - \u2705 Successfully updated sheet '718 Cayman' for 10JUN2025
+2025-06-10 18:16:00,343 - INFO - \u2705 Successfully updated sheet '718 Boxster' for 10JUN2025
+2025-06-10 18:16:01,465 - INFO - \u2705 Successfully updated sheet 'BRZ' for 10JUN2025
+2025-06-10 18:16:02,644 - INFO - \u2705 Successfully updated sheet 'CyberTruck' for 10JUN2025
+2025-06-10 18:16:03,664 - INFO - \u2705 Successfully updated sheet 'Model 3' for 10JUN2025
+2025-06-10 18:16:04,674 - INFO - \u2705 Successfully updated sheet 'Model X' for 10JUN2025
+2025-06-10 18:16:05,639 - INFO - \u2705 Successfully updated sheet 'Model Y' for 10JUN2025
+2025-06-10 18:16:06,618 - INFO - \u2705 Successfully updated sheet 'Model S' for 10JUN2025
+2025-06-10 18:16:07,845 - INFO - \u2705 Successfully updated sheet 'RAV4' for 10JUN2025
+2025-06-11 08:31:11,435 - INFO - \u2705 Loaded 44 URLs from car_urls.txt
+2025-06-11 08:31:13,526 - INFO - \u2705 Successfully updated sheet 'R8' for 11JUN2025
+2025-06-11 08:31:16,487 - INFO - \u2705 Successfully updated sheet 'RS4' for 11JUN2025
+2025-06-11 08:31:18,908 - INFO - \u2705 Successfully updated sheet 'S4' for 11JUN2025
+2025-06-11 08:31:21,932 - INFO - \u2705 Successfully updated sheet 'Q5' for 11JUN2025
+2025-06-11 08:31:25,847 - INFO - \u2705 Successfully updated sheet 'SQ5' for 11JUN2025
+2025-06-11 08:31:28,072 - INFO - \u2705 Successfully updated sheet 'RS7' for 11JUN2025
+2025-06-11 08:31:30,366 - INFO - \u2705 Successfully updated sheet 'Etron' for 11JUN2025
+2025-06-11 08:31:32,611 - INFO - \u2705 Successfully updated sheet 'M3' for 11JUN2025
+2025-06-11 08:31:34,300 - INFO - \u2705 Successfully updated sheet 'M5' for 11JUN2025
+2025-06-11 08:31:35,739 - INFO - \u2705 Successfully updated sheet 'Corvette Z06' for 11JUN2025
+2025-06-11 08:31:36,790 - INFO - \u2705 Successfully updated sheet 'Corvette ZR1' for 11JUN2025
+2025-06-11 08:31:37,877 - INFO - \u2705 Successfully updated sheet 'Charger' for 11JUN2025
+2025-06-11 08:31:38,822 - INFO - \u2705 Successfully updated sheet '458 Italia' for 11JUN2025
+2025-06-11 08:31:39,749 - INFO - \u2705 Successfully updated sheet 'F250' for 11JUN2025
+2025-06-11 08:31:40,752 - INFO - \u2705 Successfully updated sheet 'GT' for 11JUN2025
+2025-06-11 08:31:41,719 - INFO - \u2705 Successfully updated sheet 'Accord' for 11JUN2025
+2025-06-11 08:31:42,676 - INFO - \u2705 Successfully updated sheet 'S2000' for 11JUN2025
+2025-06-11 08:31:43,669 - INFO - \u2705 Successfully updated sheet 'Wrangler' for 11JUN2025
+2025-06-11 08:31:44,632 - INFO - \u2705 Successfully updated sheet 'Aventador' for 11JUN2025
+2025-06-11 08:31:45,762 - INFO - \u2705 Successfully updated sheet 'Gallardo' for 11JUN2025
+2025-06-11 08:31:46,846 - INFO - \u2705 Successfully updated sheet 'Huracan' for 11JUN2025
+2025-06-11 08:31:47,816 - INFO - \u2705 Successfully updated sheet 'Murcielago' for 11JUN2025
+2025-06-11 08:31:48,806 - INFO - \u2705 Successfully updated sheet 'Urus' for 11JUN2025
+2025-06-11 08:31:49,769 - INFO - \u2705 Successfully updated sheet 'AMG' for 11JUN2025
+2025-06-11 08:31:50,866 - INFO - \u2705 Successfully updated sheet 'C63 AMG' for 11JUN2025
+2025-06-11 08:31:52,196 - INFO - \u2705 Successfully updated sheet 'G Wagon' for 11JUN2025
+2025-06-11 08:31:53,203 - INFO - \u2705 Successfully updated sheet 'S550' for 11JUN2025
+2025-06-11 08:31:54,138 - INFO - \u2705 Successfully updated sheet 'Carrera S' for 11JUN2025
+2025-06-11 08:31:55,059 - INFO - \u2705 Successfully updated sheet 'GT3' for 11JUN2025
+2025-06-11 08:31:56,286 - INFO - \u2705 Successfully updated sheet 'GT3RS' for 11JUN2025
+2025-06-11 08:31:57,253 - INFO - \u2705 Successfully updated sheet 'GT4' for 11JUN2025
+2025-06-11 08:31:58,838 - INFO - \u2705 Successfully updated sheet 'GT4RS' for 11JUN2025
+2025-06-11 08:31:59,928 - INFO - \u2705 Successfully updated sheet 'Cayenne' for 11JUN2025
+2025-06-11 08:32:01,100 - INFO - \u2705 Successfully updated sheet 'Macan' for 11JUN2025
+2025-06-11 08:32:02,611 - INFO - \u2705 Successfully updated sheet 'Taycan' for 11JUN2025
+2025-06-11 08:32:03,653 - INFO - \u2705 Successfully updated sheet '718 Cayman' for 11JUN2025
+2025-06-11 08:32:04,749 - INFO - \u2705 Successfully updated sheet '718 Boxster' for 11JUN2025
+2025-06-11 08:32:05,784 - INFO - \u2705 Successfully updated sheet 'BRZ' for 11JUN2025
+2025-06-11 08:32:06,860 - INFO - \u2705 Successfully updated sheet 'CyberTruck' for 11JUN2025
+2025-06-11 08:32:07,973 - INFO - \u2705 Successfully updated sheet 'Model 3' for 11JUN2025
+2025-06-11 08:32:08,921 - INFO - \u2705 Successfully updated sheet 'Model X' for 11JUN2025
+2025-06-11 08:32:09,960 - INFO - \u2705 Successfully updated sheet 'Model Y' for 11JUN2025
+2025-06-11 08:32:10,897 - INFO - \u2705 Successfully updated sheet 'Model S' for 11JUN2025
+2025-06-11 08:32:11,901 - INFO - \u2705 Successfully updated sheet 'RAV4' for 11JUN2025
+2025-06-12 08:39:31,554 - INFO - \u2705 Loaded 44 URLs from car_urls.txt
+2025-06-12 08:39:33,134 - INFO - \u2705 Successfully updated sheet 'R8' for 12JUN2025
+2025-06-12 08:39:34,334 - INFO - \u2705 Successfully updated sheet 'RS4' for 12JUN2025
+2025-06-12 08:39:36,532 - INFO - \u2705 Successfully updated sheet 'S4' for 12JUN2025
+2025-06-12 08:39:38,486 - INFO - \u2705 Successfully updated sheet 'Q5' for 12JUN2025
+2025-06-12 08:39:40,097 - INFO - \u2705 Successfully updated sheet 'SQ5' for 12JUN2025
+2025-06-12 08:39:41,615 - INFO - \u2705 Successfully updated sheet 'RS7' for 12JUN2025
+2025-06-12 08:39:43,096 - INFO - \u2705 Successfully updated sheet 'Etron' for 12JUN2025
+2025-06-12 08:39:46,470 - INFO - \u2705 Successfully updated sheet 'M3' for 12JUN2025
+2025-06-12 08:39:49,613 - INFO - \u2705 Successfully updated sheet 'M5' for 12JUN2025
+2025-06-12 08:39:54,013 - INFO - \u2705 Successfully updated sheet 'Corvette Z06' for 12JUN2025
+2025-06-12 08:39:56,630 - INFO - \u2705 Successfully updated sheet 'Corvette ZR1' for 12JUN2025
+2025-06-12 08:39:57,827 - INFO - \u2705 Successfully updated sheet 'Charger' for 12JUN2025
+2025-06-12 08:39:59,352 - INFO - \u2705 Successfully updated sheet '458 Italia' for 12JUN2025
+2025-06-12 08:40:00,860 - INFO - \u2705 Successfully updated sheet 'F250' for 12JUN2025
+2025-06-12 08:40:02,277 - INFO - \u2705 Successfully updated sheet 'GT' for 12JUN2025
+2025-06-12 08:40:03,979 - INFO - \u2705 Successfully updated sheet 'Accord' for 12JUN2025
+2025-06-12 08:40:05,280 - INFO - \u2705 Successfully updated sheet 'S2000' for 12JUN2025
+2025-06-12 08:40:06,708 - INFO - \u2705 Successfully updated sheet 'Wrangler' for 12JUN2025
+2025-06-12 08:40:08,300 - INFO - \u2705 Successfully updated sheet 'Aventador' for 12JUN2025
+2025-06-12 08:40:10,190 - INFO - \u2705 Successfully updated sheet 'Gallardo' for 12JUN2025
+2025-06-12 08:40:12,646 - INFO - \u2705 Successfully updated sheet 'Huracan' for 12JUN2025
+2025-06-12 08:40:15,568 - INFO - \u2705 Successfully updated sheet 'Murcielago' for 12JUN2025
+2025-06-12 08:40:18,614 - INFO - \u2705 Successfully updated sheet 'Urus' for 12JUN2025
+2025-06-12 08:40:21,348 - INFO - \u2705 Successfully updated sheet 'AMG' for 12JUN2025
+2025-06-12 08:40:22,730 - INFO - \u2705 Successfully updated sheet 'C63 AMG' for 12JUN2025
+2025-06-12 08:40:24,448 - INFO - \u2705 Successfully updated sheet 'G Wagon' for 12JUN2025
+2025-06-12 08:40:25,654 - INFO - \u2705 Successfully updated sheet 'S550' for 12JUN2025
+2025-06-12 08:40:26,765 - INFO - \u2705 Successfully updated sheet 'Carrera S' for 12JUN2025
+2025-06-12 08:40:28,094 - INFO - \u2705 Successfully updated sheet 'GT3' for 12JUN2025
+2025-06-12 08:40:29,627 - INFO - \u2705 Successfully updated sheet 'GT3RS' for 12JUN2025
+2025-06-12 08:40:30,737 - INFO - \u2705 Successfully updated sheet 'GT4' for 12JUN2025
+2025-06-12 08:40:31,879 - INFO - \u2705 Successfully updated sheet 'GT4RS' for 12JUN2025
+2025-06-12 08:40:33,209 - INFO - \u2705 Successfully updated sheet 'Cayenne' for 12JUN2025
+2025-06-12 08:40:34,819 - INFO - \u2705 Successfully updated sheet 'Macan' for 12JUN2025
+2025-06-12 08:40:36,244 - INFO - \u2705 Successfully updated sheet 'Taycan' for 12JUN2025
+2025-06-12 08:40:38,323 - INFO - \u2705 Successfully updated sheet '718 Cayman' for 12JUN2025
+2025-06-12 08:40:39,434 - INFO - \u2705 Successfully updated sheet '718 Boxster' for 12JUN2025
+2025-06-12 08:40:40,758 - INFO - \u2705 Successfully updated sheet 'BRZ' for 12JUN2025
+2025-06-12 08:40:41,938 - INFO - \u2705 Successfully updated sheet 'CyberTruck' for 12JUN2025
+2025-06-12 08:40:43,017 - INFO - \u2705 Successfully updated sheet 'Model 3' for 12JUN2025
+2025-06-12 08:40:44,318 - INFO - \u2705 Successfully updated sheet 'Model X' for 12JUN2025
+2025-06-12 08:40:45,644 - INFO - \u2705 Successfully updated sheet 'Model Y' for 12JUN2025
+2025-06-12 08:40:46,814 - INFO - \u2705 Successfully updated sheet 'Model S' for 12JUN2025
+2025-06-12 08:40:48,491 - INFO - \u2705 Successfully updated sheet 'RAV4' for 12JUN2025
+2025-06-12 22:08:23,387 - INFO - \u2705 Loaded 44 URLs from car_urls.txt
+2025-06-12 22:08:25,800 - INFO - \u2705 Successfully updated sheet 'R8' for 12JUN2025
+2025-06-12 22:08:28,271 - INFO - \u2705 Successfully updated sheet 'RS4' for 12JUN2025
+2025-06-12 22:08:30,909 - INFO - \u2705 Successfully updated sheet 'S4' for 12JUN2025
+2025-06-12 22:08:33,857 - INFO - \u2705 Successfully updated sheet 'Q5' for 12JUN2025
+2025-06-12 22:08:36,102 - INFO - \u2705 Successfully updated sheet 'SQ5' for 12JUN2025
+2025-06-12 22:08:38,207 - INFO - \u2705 Successfully updated sheet 'RS7' for 12JUN2025
+2025-06-12 22:08:39,775 - INFO - \u2705 Successfully updated sheet 'Etron' for 12JUN2025
+2025-06-12 22:08:42,498 - INFO - \u2705 Successfully updated sheet 'M3' for 12JUN2025
+2025-06-12 22:08:44,279 - INFO - \u2705 Successfully updated sheet 'M5' for 12JUN2025
+2025-06-12 22:08:45,789 - INFO - \u2705 Successfully updated sheet 'Corvette Z06' for 12JUN2025
+2025-06-12 22:08:47,370 - INFO - \u2705 Successfully updated sheet 'Corvette ZR1' for 12JUN2025
+2025-06-12 22:08:49,003 - INFO - \u2705 Successfully updated sheet 'Charger' for 12JUN2025
+2025-06-12 22:08:50,345 - INFO - \u2705 Successfully updated sheet '458 Italia' for 12JUN2025
+2025-06-12 22:08:51,515 - INFO - \u2705 Successfully updated sheet 'F250' for 12JUN2025
+2025-06-12 22:08:52,514 - INFO - \u2705 Successfully updated sheet 'GT' for 12JUN2025
+2025-06-12 22:08:53,786 - INFO - \u2705 Successfully updated sheet 'Accord' for 12JUN2025
+2025-06-12 22:08:55,069 - INFO - \u2705 Successfully updated sheet 'S2000' for 12JUN2025
+2025-06-12 22:08:56,399 - INFO - \u2705 Successfully updated sheet 'Wrangler' for 12JUN2025
+2025-06-12 22:08:57,626 - INFO - \u2705 Successfully updated sheet 'Aventador' for 12JUN2025
+2025-06-12 22:08:58,853 - INFO - \u2705 Successfully updated sheet 'Gallardo' for 12JUN2025
+2025-06-12 22:09:01,576 - INFO - \u2705 Successfully updated sheet 'Huracan' for 12JUN2025
+2025-06-12 22:09:04,543 - INFO - \u2705 Successfully updated sheet 'Murcielago' for 12JUN2025
+2025-06-12 22:09:08,169 - INFO - \u2705 Successfully updated sheet 'Urus' for 12JUN2025
+2025-06-12 22:09:11,106 - INFO - \u2705 Successfully updated sheet 'AMG' for 12JUN2025
+2025-06-12 22:09:12,624 - INFO - \u2705 Successfully updated sheet 'C63 AMG' for 12JUN2025
+2025-06-12 22:09:14,278 - INFO - \u2705 Successfully updated sheet 'G Wagon' for 12JUN2025
+2025-06-12 22:09:15,896 - INFO - \u2705 Successfully updated sheet 'S550' for 12JUN2025
+2025-06-12 22:09:17,436 - INFO - \u2705 Successfully updated sheet 'Carrera S' for 12JUN2025
+2025-06-12 22:09:18,556 - INFO - \u2705 Successfully updated sheet 'GT3' for 12JUN2025
+2025-06-12 22:09:19,837 - INFO - \u2705 Successfully updated sheet 'GT3RS' for 12JUN2025
+2025-06-12 22:09:21,182 - INFO - \u2705 Successfully updated sheet 'GT4' for 12JUN2025
+2025-06-12 22:09:22,454 - INFO - \u2705 Successfully updated sheet 'GT4RS' for 12JUN2025
+2025-06-12 22:09:23,710 - INFO - \u2705 Successfully updated sheet 'Cayenne' for 12JUN2025
+2025-06-12 22:09:24,927 - INFO - \u2705 Successfully updated sheet 'Macan' for 12JUN2025
+2025-06-12 22:09:26,153 - INFO - \u2705 Successfully updated sheet 'Taycan' for 12JUN2025
+2025-06-12 22:09:27,251 - INFO - \u2705 Successfully updated sheet '718 Cayman' for 12JUN2025
+2025-06-12 22:09:28,243 - INFO - \u2705 Successfully updated sheet '718 Boxster' for 12JUN2025
+2025-06-12 22:09:29,262 - INFO - \u2705 Successfully updated sheet 'BRZ' for 12JUN2025
+2025-06-12 22:09:30,392 - INFO - \u2705 Successfully updated sheet 'CyberTruck' for 12JUN2025
+2025-06-12 22:09:31,442 - INFO - \u2705 Successfully updated sheet 'Model 3' for 12JUN2025
+2025-06-12 22:09:32,448 - INFO - \u2705 Successfully updated sheet 'Model X' for 12JUN2025
+2025-06-12 22:09:33,429 - INFO - \u2705 Successfully updated sheet 'Model Y' for 12JUN2025
+2025-06-12 22:09:34,395 - INFO - \u2705 Successfully updated sheet 'Model S' for 12JUN2025
+2025-06-12 22:09:35,495 - INFO - \u2705 Successfully updated sheet 'RAV4' for 12JUN2025
+2025-06-13 08:53:24,543 - INFO - \u2705 Loaded 44 URLs from car_urls.txt
+2025-06-13 08:53:25,623 - INFO - \u2705 Successfully updated sheet 'R8' for 13JUN2025
+2025-06-13 08:53:26,749 - INFO - \u2705 Successfully updated sheet 'RS4' for 13JUN2025
+2025-06-13 08:53:28,000 - INFO - \u2705 Successfully updated sheet 'S4' for 13JUN2025
+2025-06-13 08:53:30,096 - INFO - \u2705 Successfully updated sheet 'Q5' for 13JUN2025
+2025-06-13 08:53:31,313 - INFO - \u2705 Successfully updated sheet 'SQ5' for 13JUN2025
+2025-06-13 08:53:32,435 - INFO - \u2705 Successfully updated sheet 'RS7' for 13JUN2025
+2025-06-13 08:53:33,545 - INFO - \u2705 Successfully updated sheet 'Etron' for 13JUN2025
+2025-06-13 08:53:34,550 - INFO - \u2705 Successfully updated sheet 'M3' for 13JUN2025
+2025-06-13 08:53:35,711 - INFO - \u2705 Successfully updated sheet 'M5' for 13JUN2025
+2025-06-13 08:53:36,693 - INFO - \u2705 Successfully updated sheet 'Corvette Z06' for 13JUN2025
+2025-06-13 08:53:37,711 - INFO - \u2705 Successfully updated sheet 'Corvette ZR1' for 13JUN2025
+2025-06-13 08:53:38,721 - INFO - \u2705 Successfully updated sheet 'Charger' for 13JUN2025
+2025-06-13 08:53:39,793 - INFO - \u2705 Successfully updated sheet '458 Italia' for 13JUN2025
+2025-06-13 08:53:40,856 - INFO - \u2705 Successfully updated sheet 'F250' for 13JUN2025
+2025-06-13 08:53:41,825 - INFO - \u2705 Successfully updated sheet 'GT' for 13JUN2025
+2025-06-13 08:53:42,794 - INFO - \u2705 Successfully updated sheet 'Accord' for 13JUN2025
+2025-06-13 08:53:43,760 - INFO - \u2705 Successfully updated sheet 'S2000' for 13JUN2025
+2025-06-13 08:53:44,704 - INFO - \u2705 Successfully updated sheet 'Wrangler' for 13JUN2025
+2025-06-13 08:53:45,696 - INFO - \u2705 Successfully updated sheet 'Aventador' for 13JUN2025
+2025-06-13 08:53:46,651 - INFO - \u2705 Successfully updated sheet 'Gallardo' for 13JUN2025
+2025-06-13 08:53:47,634 - INFO - \u2705 Successfully updated sheet 'Huracan' for 13JUN2025
+2025-06-13 08:53:48,593 - INFO - \u2705 Successfully updated sheet 'Murcielago' for 13JUN2025
+2025-06-13 08:53:49,600 - INFO - \u2705 Successfully updated sheet 'Urus' for 13JUN2025
+2025-06-13 08:53:50,568 - INFO - \u2705 Successfully updated sheet 'AMG' for 13JUN2025
+2025-06-13 08:53:51,695 - INFO - \u2705 Successfully updated sheet 'C63 AMG' for 13JUN2025
+2025-06-13 08:53:53,040 - INFO - \u2705 Successfully updated sheet 'G Wagon' for 13JUN2025
+2025-06-13 08:53:54,009 - INFO - \u2705 Successfully updated sheet 'S550' for 13JUN2025
+2025-06-13 08:53:54,964 - INFO - \u2705 Successfully updated sheet 'Carrera S' for 13JUN2025
+2025-06-13 08:53:55,949 - INFO - \u2705 Successfully updated sheet 'GT3' for 13JUN2025
+2025-06-13 08:53:56,949 - INFO - \u2705 Successfully updated sheet 'GT3RS' for 13JUN2025
+2025-06-13 08:53:57,936 - INFO - \u2705 Successfully updated sheet 'GT4' for 13JUN2025
+2025-06-13 08:53:58,912 - INFO - \u2705 Successfully updated sheet 'GT4RS' for 13JUN2025
+2025-06-13 08:53:59,954 - INFO - \u2705 Successfully updated sheet 'Cayenne' for 13JUN2025
+2025-06-13 08:54:01,034 - INFO - \u2705 Successfully updated sheet 'Macan' for 13JUN2025
+2025-06-13 08:54:02,081 - INFO - \u2705 Successfully updated sheet 'Taycan' for 13JUN2025
+2025-06-13 08:54:03,910 - INFO - \u2705 Successfully updated sheet '718 Cayman' for 13JUN2025
+2025-06-13 08:54:06,399 - INFO - \u2705 Successfully updated sheet '718 Boxster' for 13JUN2025
+2025-06-13 08:54:08,232 - INFO - \u2705 Successfully updated sheet 'BRZ' for 13JUN2025
+2025-06-13 08:54:10,615 - INFO - \u2705 Successfully updated sheet 'CyberTruck' for 13JUN2025
+2025-06-13 08:54:11,606 - INFO - \u2705 Successfully updated sheet 'Model 3' for 13JUN2025
+2025-06-13 08:54:12,670 - INFO - \u2705 Successfully updated sheet 'Model X' for 13JUN2025
+2025-06-13 08:54:14,231 - INFO - \u2705 Successfully updated sheet 'Model Y' for 13JUN2025
+2025-06-13 08:54:16,346 - INFO - \u2705 Successfully updated sheet 'Model S' for 13JUN2025
+2025-06-13 08:54:18,443 - INFO - \u2705 Successfully updated sheet 'RAV4' for 13JUN2025
+2025-06-14 17:45:59,967 - INFO - \u2705 Loaded 44 URLs from car_urls.txt
+2025-06-14 17:46:01,342 - INFO - \u2705 Successfully updated sheet 'R8' for 14JUN2025
+2025-06-14 17:46:02,675 - INFO - \u2705 Successfully updated sheet 'RS4' for 14JUN2025
+2025-06-14 17:46:04,377 - INFO - \u2705 Successfully updated sheet 'S4' for 14JUN2025
+2025-06-14 17:46:06,441 - INFO - \u2705 Successfully updated sheet 'Q5' for 14JUN2025
+2025-06-14 17:46:08,130 - INFO - \u2705 Successfully updated sheet 'SQ5' for 14JUN2025
+2025-06-14 17:46:09,603 - INFO - \u2705 Successfully updated sheet 'RS7' for 14JUN2025
+2025-06-14 17:46:11,023 - INFO - \u2705 Successfully updated sheet 'Etron' for 14JUN2025
+2025-06-14 17:46:12,238 - INFO - \u2705 Successfully updated sheet 'M3' for 14JUN2025
+2025-06-14 17:46:13,270 - INFO - \u2705 Successfully updated sheet 'M5' for 14JUN2025
+2025-06-14 17:46:14,741 - INFO - \u2705 Successfully updated sheet 'Corvette Z06' for 14JUN2025
+2025-06-14 17:46:16,465 - INFO - \u2705 Successfully updated sheet 'Corvette ZR1' for 14JUN2025
+2025-06-14 17:46:20,458 - INFO - \u2705 Successfully updated sheet 'Charger' for 14JUN2025
+2025-06-14 17:46:24,228 - INFO - \u2705 Successfully updated sheet '458 Italia' for 14JUN2025
+2025-06-14 17:46:27,893 - INFO - \u2705 Successfully updated sheet 'F250' for 14JUN2025
+2025-06-14 17:46:29,317 - INFO - \u2705 Successfully updated sheet 'GT' for 14JUN2025
+2025-06-14 17:46:31,047 - INFO - \u2705 Successfully updated sheet 'Accord' for 14JUN2025
+2025-06-14 17:46:32,504 - INFO - \u2705 Successfully updated sheet 'S2000' for 14JUN2025
+2025-06-14 17:46:34,052 - INFO - \u2705 Successfully updated sheet 'Wrangler' for 14JUN2025
+2025-06-14 17:46:35,601 - INFO - \u2705 Successfully updated sheet 'Aventador' for 14JUN2025
+2025-06-14 17:46:37,259 - INFO - \u2705 Successfully updated sheet 'Gallardo' for 14JUN2025
+2025-06-14 17:46:40,058 - INFO - \u2705 Successfully updated sheet 'Huracan' for 14JUN2025
+2025-06-14 17:46:42,879 - INFO - \u2705 Successfully updated sheet 'Murcielago' for 14JUN2025
+2025-06-14 17:46:46,698 - INFO - \u2705 Successfully updated sheet 'Urus' for 14JUN2025
+2025-06-14 17:46:48,155 - INFO - \u2705 Successfully updated sheet 'AMG' for 14JUN2025
+2025-06-14 17:46:50,567 - INFO - \u2705 Successfully updated sheet 'C63 AMG' for 14JUN2025
+2025-06-14 17:46:52,450 - INFO - \u2705 Successfully updated sheet 'G Wagon' for 14JUN2025
+2025-06-14 17:46:53,567 - INFO - \u2705 Successfully updated sheet 'S550' for 14JUN2025
+2025-06-14 17:46:54,949 - INFO - \u2705 Successfully updated sheet 'Carrera S' for 14JUN2025
+2025-06-14 17:46:56,038 - INFO - \u2705 Successfully updated sheet 'GT3' for 14JUN2025
+2025-06-14 17:46:57,351 - INFO - \u2705 Successfully updated sheet 'GT3RS' for 14JUN2025
+2025-06-14 17:46:58,462 - INFO - \u2705 Successfully updated sheet 'GT4' for 14JUN2025
+2025-06-14 17:46:59,666 - INFO - \u2705 Successfully updated sheet 'GT4RS' for 14JUN2025
+2025-06-14 17:47:01,027 - INFO - \u2705 Successfully updated sheet 'Cayenne' for 14JUN2025
+2025-06-14 17:47:02,340 - INFO - \u2705 Successfully updated sheet 'Macan' for 14JUN2025
+2025-06-14 17:47:03,622 - INFO - \u2705 Successfully updated sheet 'Taycan' for 14JUN2025
+2025-06-14 17:47:04,816 - INFO - \u2705 Successfully updated sheet '718 Cayman' for 14JUN2025
+2025-06-14 17:47:06,094 - INFO - \u2705 Successfully updated sheet '718 Boxster' for 14JUN2025
+2025-06-14 17:47:07,219 - INFO - \u2705 Successfully updated sheet 'BRZ' for 14JUN2025
+2025-06-14 17:47:08,267 - INFO - \u2705 Successfully updated sheet 'CyberTruck' for 14JUN2025
+2025-06-14 17:47:09,768 - INFO - \u2705 Successfully updated sheet 'Model 3' for 14JUN2025
+2025-06-14 17:47:10,762 - INFO - \u2705 Successfully updated sheet 'Model X' for 14JUN2025
+2025-06-14 17:47:11,864 - INFO - \u2705 Successfully updated sheet 'Model Y' for 14JUN2025
+2025-06-14 17:47:12,850 - INFO - \u2705 Successfully updated sheet 'Model S' for 14JUN2025
+2025-06-14 17:47:13,897 - INFO - \u2705 Successfully updated sheet 'RAV4' for 14JUN2025
+2025-06-15 10:17:03,995 - INFO - \u2705 Loaded 44 URLs from car_urls.txt
+2025-06-15 10:17:08,280 - INFO - \u2705 Successfully updated sheet 'R8' for 15JUN2025
+2025-06-15 10:17:09,704 - INFO - \u2705 Successfully updated sheet 'RS4' for 15JUN2025
+2025-06-15 10:17:10,939 - INFO - \u2705 Successfully updated sheet 'S4' for 15JUN2025
+2025-06-15 10:17:12,629 - INFO - \u2705 Successfully updated sheet 'Q5' for 15JUN2025
+2025-06-15 10:17:14,489 - INFO - \u2705 Successfully updated sheet 'SQ5' for 15JUN2025
+2025-06-15 10:17:16,814 - INFO - \u2705 Successfully updated sheet 'RS7' for 15JUN2025
+2025-06-15 10:17:18,510 - INFO - \u2705 Successfully updated sheet 'Etron' for 15JUN2025
+2025-06-15 10:17:20,143 - INFO - \u2705 Successfully updated sheet 'M3' for 15JUN2025
+2025-06-15 10:17:21,576 - INFO - \u2705 Successfully updated sheet 'M5' for 15JUN2025
+2025-06-15 10:17:23,008 - INFO - \u2705 Successfully updated sheet 'Corvette Z06' for 15JUN2025
+2025-06-15 10:17:24,229 - INFO - \u2705 Successfully updated sheet 'Corvette ZR1' for 15JUN2025
+2025-06-15 10:17:25,362 - INFO - \u2705 Successfully updated sheet 'Charger' for 15JUN2025
+2025-06-15 10:17:26,566 - INFO - \u2705 Successfully updated sheet '458 Italia' for 15JUN2025
+2025-06-15 10:17:27,761 - INFO - \u2705 Successfully updated sheet 'F250' for 15JUN2025
+2025-06-15 10:17:29,649 - INFO - \u2705 Successfully updated sheet 'GT' for 15JUN2025
+2025-06-15 10:17:32,628 - INFO - \u2705 Successfully updated sheet 'Accord' for 15JUN2025
+2025-06-15 10:17:35,133 - INFO - \u2705 Successfully updated sheet 'S2000' for 15JUN2025
+2025-06-15 10:17:37,668 - INFO - \u2705 Successfully updated sheet 'Wrangler' for 15JUN2025
+2025-06-15 10:17:38,718 - INFO - \u2705 Successfully updated sheet 'Aventador' for 15JUN2025
+2025-06-15 10:17:39,771 - INFO - \u2705 Successfully updated sheet 'Gallardo' for 15JUN2025
+2025-06-15 10:17:40,774 - INFO - \u2705 Successfully updated sheet 'Huracan' for 15JUN2025
+2025-06-15 10:17:41,962 - INFO - \u2705 Successfully updated sheet 'Murcielago' for 15JUN2025
+2025-06-15 10:17:42,992 - INFO - \u2705 Successfully updated sheet 'Urus' for 15JUN2025
+2025-06-15 10:17:44,040 - INFO - \u2705 Successfully updated sheet 'AMG' for 15JUN2025
+2025-06-15 10:17:45,158 - INFO - \u2705 Successfully updated sheet 'C63 AMG' for 15JUN2025
+2025-06-15 10:17:47,044 - INFO - \u2705 Successfully updated sheet 'G Wagon' for 15JUN2025
+2025-06-15 10:17:48,093 - INFO - \u2705 Successfully updated sheet 'S550' for 15JUN2025
+2025-06-15 10:17:49,384 - INFO - \u2705 Successfully updated sheet 'Carrera S' for 15JUN2025
+2025-06-15 10:17:50,744 - INFO - \u2705 Successfully updated sheet 'GT3' for 15JUN2025
+2025-06-15 10:17:51,683 - INFO - \u2705 Successfully updated sheet 'GT3RS' for 15JUN2025
+2025-06-15 10:17:53,417 - INFO - \u2705 Successfully updated sheet 'GT4' for 15JUN2025
+2025-06-15 10:17:55,679 - INFO - \u2705 Successfully updated sheet 'GT4RS' for 15JUN2025
+2025-06-15 10:17:57,370 - INFO - \u2705 Successfully updated sheet 'Cayenne' for 15JUN2025
+2025-06-15 10:17:59,807 - INFO - \u2705 Successfully updated sheet 'Macan' for 15JUN2025
+2025-06-15 10:18:01,920 - INFO - \u2705 Successfully updated sheet 'Taycan' for 15JUN2025
+2025-06-15 10:18:04,125 - INFO - \u2705 Successfully updated sheet '718 Cayman' for 15JUN2025
+2025-06-15 10:18:06,271 - INFO - \u2705 Successfully updated sheet '718 Boxster' for 15JUN2025
+2025-06-15 10:18:07,776 - INFO - \u2705 Successfully updated sheet 'BRZ' for 15JUN2025
+2025-06-15 10:18:08,839 - INFO - \u2705 Successfully updated sheet 'CyberTruck' for 15JUN2025
+2025-06-15 10:18:09,856 - INFO - \u2705 Successfully updated sheet 'Model 3' for 15JUN2025
+2025-06-15 10:18:10,808 - INFO - \u2705 Successfully updated sheet 'Model X' for 15JUN2025
+2025-06-15 10:18:11,779 - INFO - \u2705 Successfully updated sheet 'Model Y' for 15JUN2025
+2025-06-15 10:18:12,811 - INFO - \u2705 Successfully updated sheet 'Model S' for 15JUN2025
+2025-06-15 10:18:13,796 - INFO - \u2705 Successfully updated sheet 'RAV4' for 15JUN2025
+2025-06-15 11:39:22,623 - INFO - \u2705 Loaded 44 URLs from car_urls.txt
+2025-06-15 11:39:24,961 - INFO - \u2705 Successfully updated sheet 'R8' for 15JUN2025
+2025-06-15 11:39:27,207 - INFO - \u2705 Successfully updated sheet 'RS4' for 15JUN2025
+2025-06-15 11:39:29,549 - INFO - \u2705 Successfully updated sheet 'S4' for 15JUN2025
+2025-06-15 11:39:31,937 - INFO - \u2705 Successfully updated sheet 'Q5' for 15JUN2025
+2025-06-15 11:39:34,507 - INFO - \u2705 Successfully updated sheet 'SQ5' for 15JUN2025
+2025-06-15 11:39:36,889 - INFO - \u2705 Successfully updated sheet 'RS7' for 15JUN2025
+2025-06-15 11:39:38,517 - INFO - \u2705 Successfully updated sheet 'Etron' for 15JUN2025
+2025-06-15 11:39:39,916 - INFO - \u2705 Successfully updated sheet 'M3' for 15JUN2025
+2025-06-15 11:39:40,988 - INFO - \u2705 Successfully updated sheet 'M5' for 15JUN2025
+2025-06-15 11:39:42,179 - INFO - \u2705 Successfully updated sheet 'Corvette Z06' for 15JUN2025
+2025-06-15 11:39:43,216 - INFO - \u2705 Successfully updated sheet 'Corvette ZR1' for 15JUN2025
+2025-06-15 11:39:44,606 - INFO - \u2705 Successfully updated sheet 'Charger' for 15JUN2025
+2025-06-15 11:39:46,142 - INFO - \u2705 Successfully updated sheet '458 Italia' for 15JUN2025
+2025-06-15 11:39:47,392 - INFO - \u2705 Successfully updated sheet 'F250' for 15JUN2025
+2025-06-15 11:39:49,059 - INFO - \u2705 Successfully updated sheet 'GT' for 15JUN2025
+2025-06-15 11:39:50,487 - INFO - \u2705 Successfully updated sheet 'Accord' for 15JUN2025
+2025-06-15 11:39:52,239 - INFO - \u2705 Successfully updated sheet 'S2000' for 15JUN2025
+2025-06-15 11:39:53,688 - INFO - \u2705 Successfully updated sheet 'Wrangler' for 15JUN2025
+2025-06-15 11:39:55,047 - INFO - \u2705 Successfully updated sheet 'Aventador' for 15JUN2025
+2025-06-15 11:39:56,407 - INFO - \u2705 Successfully updated sheet 'Gallardo' for 15JUN2025
+2025-06-15 11:39:57,777 - INFO - \u2705 Successfully updated sheet 'Huracan' for 15JUN2025
+2025-06-15 11:39:59,160 - INFO - \u2705 Successfully updated sheet 'Murcielago' for 15JUN2025
+2025-06-15 11:40:01,322 - INFO - \u2705 Successfully updated sheet 'Urus' for 15JUN2025
+2025-06-15 11:40:03,931 - INFO - \u2705 Successfully updated sheet 'AMG' for 15JUN2025
+2025-06-15 11:40:06,785 - INFO - \u2705 Successfully updated sheet 'C63 AMG' for 15JUN2025
+2025-06-15 11:40:09,939 - INFO - \u2705 Successfully updated sheet 'G Wagon' for 15JUN2025
+2025-06-15 11:40:11,909 - INFO - \u2705 Successfully updated sheet 'S550' for 15JUN2025
+2025-06-15 11:40:13,625 - INFO - \u2705 Successfully updated sheet 'Carrera S' for 15JUN2025
+2025-06-15 11:40:14,898 - INFO - \u2705 Successfully updated sheet 'GT3' for 15JUN2025
+2025-06-15 11:40:15,998 - INFO - \u2705 Successfully updated sheet 'GT3RS' for 15JUN2025
+2025-06-15 11:40:17,064 - INFO - \u2705 Successfully updated sheet 'GT4' for 15JUN2025
+2025-06-15 11:40:18,134 - INFO - \u2705 Successfully updated sheet 'GT4RS' for 15JUN2025
+2025-06-15 11:40:19,227 - INFO - \u2705 Successfully updated sheet 'Cayenne' for 15JUN2025
+2025-06-15 11:40:20,491 - INFO - \u2705 Successfully updated sheet 'Macan' for 15JUN2025
+2025-06-15 11:40:21,557 - INFO - \u2705 Successfully updated sheet 'Taycan' for 15JUN2025
+2025-06-15 11:40:22,609 - INFO - \u2705 Successfully updated sheet '718 Cayman' for 15JUN2025
+2025-06-15 11:40:23,666 - INFO - \u2705 Successfully updated sheet '718 Boxster' for 15JUN2025
+2025-06-15 11:40:24,671 - INFO - \u2705 Successfully updated sheet 'BRZ' for 15JUN2025
+2025-06-15 11:40:25,677 - INFO - \u2705 Successfully updated sheet 'CyberTruck' for 15JUN2025
+2025-06-15 11:40:26,824 - INFO - \u2705 Successfully updated sheet 'Model 3' for 15JUN2025
+2025-06-15 11:40:27,921 - INFO - \u2705 Successfully updated sheet 'Model X' for 15JUN2025
+2025-06-15 11:40:28,981 - INFO - \u2705 Successfully updated sheet 'Model Y' for 15JUN2025
+2025-06-15 11:40:30,002 - INFO - \u2705 Successfully updated sheet 'Model S' for 15JUN2025
+2025-06-15 11:40:31,088 - INFO - \u2705 Successfully updated sheet 'RAV4' for 15JUN2025
+2025-06-16 15:08:38,547 - INFO - \u2705 Loaded 44 URLs from car_urls.txt
+2025-06-16 15:08:39,982 - INFO - \u2705 Successfully updated sheet 'R8' for 16JUN2025
+2025-06-16 15:08:42,000 - INFO - \u2705 Successfully updated sheet 'RS4' for 16JUN2025
+2025-06-16 15:08:43,876 - INFO - \u2705 Successfully updated sheet 'S4' for 16JUN2025
+2025-06-16 15:08:45,378 - INFO - \u2705 Successfully updated sheet 'Q5' for 16JUN2025
+2025-06-16 15:08:46,953 - INFO - \u2705 Successfully updated sheet 'SQ5' for 16JUN2025
+2025-06-16 15:08:48,304 - INFO - \u2705 Successfully updated sheet 'RS7' for 16JUN2025
+2025-06-16 15:08:50,999 - INFO - \u2705 Successfully updated sheet 'Etron' for 16JUN2025
+2025-06-16 15:08:54,149 - INFO - \u2705 Successfully updated sheet 'M3' for 16JUN2025
+2025-06-16 15:08:57,277 - INFO - \u2705 Successfully updated sheet 'M5' for 16JUN2025
+2025-06-16 15:09:00,302 - INFO - \u2705 Successfully updated sheet 'Corvette Z06' for 16JUN2025
+2025-06-16 15:09:02,740 - INFO - \u2705 Successfully updated sheet 'Corvette ZR1' for 16JUN2025
+2025-06-16 15:09:03,909 - INFO - \u2705 Successfully updated sheet 'Charger' for 16JUN2025
+2025-06-16 15:09:05,034 - INFO - \u2705 Successfully updated sheet '458 Italia' for 16JUN2025
+2025-06-16 15:09:06,202 - INFO - \u2705 Successfully updated sheet 'F250' for 16JUN2025
+2025-06-16 15:09:07,276 - INFO - \u2705 Successfully updated sheet 'GT' for 16JUN2025
+2025-06-16 15:09:08,315 - INFO - \u2705 Successfully updated sheet 'Accord' for 16JUN2025
+2025-06-16 15:09:09,450 - INFO - \u2705 Successfully updated sheet 'S2000' for 16JUN2025
+2025-06-16 15:09:11,094 - INFO - \u2705 Successfully updated sheet 'Wrangler' for 16JUN2025
+2025-06-16 15:09:12,466 - INFO - \u2705 Successfully updated sheet 'Aventador' for 16JUN2025
+2025-06-16 15:09:13,703 - INFO - \u2705 Successfully updated sheet 'Gallardo' for 16JUN2025
+2025-06-16 15:09:16,730 - INFO - \u2705 Successfully updated sheet 'Huracan' for 16JUN2025
+2025-06-16 15:09:19,812 - INFO - \u2705 Successfully updated sheet 'Murcielago' for 16JUN2025
+2025-06-16 15:09:22,995 - INFO - \u2705 Successfully updated sheet 'Urus' for 16JUN2025
+2025-06-16 15:09:25,224 - INFO - \u2705 Successfully updated sheet 'AMG' for 16JUN2025
+2025-06-16 15:09:26,589 - INFO - \u2705 Successfully updated sheet 'C63 AMG' for 16JUN2025
+2025-06-16 15:09:28,169 - INFO - \u2705 Successfully updated sheet 'G Wagon' for 16JUN2025
+2025-06-16 15:09:29,423 - INFO - \u2705 Successfully updated sheet 'S550' for 16JUN2025
+2025-06-16 15:09:30,472 - INFO - \u2705 Successfully updated sheet 'Carrera S' for 16JUN2025
+2025-06-16 15:09:31,496 - INFO - \u2705 Successfully updated sheet 'GT3' for 16JUN2025
+2025-06-16 15:09:32,695 - INFO - \u2705 Successfully updated sheet 'GT3RS' for 16JUN2025
+2025-06-16 15:09:33,727 - INFO - \u2705 Successfully updated sheet 'GT4' for 16JUN2025
+2025-06-16 15:09:34,744 - INFO - \u2705 Successfully updated sheet 'GT4RS' for 16JUN2025
+2025-06-16 15:09:35,808 - INFO - \u2705 Successfully updated sheet 'Cayenne' for 16JUN2025
+2025-06-16 15:09:36,934 - INFO - \u2705 Successfully updated sheet 'Macan' for 16JUN2025
+2025-06-16 15:09:37,934 - INFO - \u2705 Successfully updated sheet 'Taycan' for 16JUN2025
+2025-06-16 15:09:38,936 - INFO - \u2705 Successfully updated sheet '718 Cayman' for 16JUN2025
+2025-06-16 15:09:39,859 - INFO - \u2705 Successfully updated sheet '718 Boxster' for 16JUN2025
+2025-06-16 15:09:40,797 - INFO - \u2705 Successfully updated sheet 'BRZ' for 16JUN2025
+2025-06-16 15:09:41,782 - INFO - \u2705 Successfully updated sheet 'CyberTruck' for 16JUN2025
+2025-06-16 15:09:42,768 - INFO - \u2705 Successfully updated sheet 'Model 3' for 16JUN2025
+2025-06-16 15:09:43,769 - INFO - \u2705 Successfully updated sheet 'Model X' for 16JUN2025
+2025-06-16 15:09:44,801 - INFO - \u2705 Successfully updated sheet 'Model Y' for 16JUN2025
+2025-06-16 15:09:45,771 - INFO - \u2705 Successfully updated sheet 'Model S' for 16JUN2025
+2025-06-16 15:09:46,819 - INFO - \u2705 Successfully updated sheet 'RAV4' for 16JUN2025
+2025-06-17 08:36:23,897 - INFO - \u2705 Loaded 44 URLs from car_urls.txt
+2025-06-17 08:36:25,039 - INFO - \u2705 Successfully updated sheet 'R8' for 17JUN2025
+2025-06-17 08:36:26,073 - INFO - \u2705 Successfully updated sheet 'RS4' for 17JUN2025
+2025-06-17 08:36:27,261 - INFO - \u2705 Successfully updated sheet 'S4' for 17JUN2025
+2025-06-17 08:36:29,191 - INFO - \u2705 Successfully updated sheet 'Q5' for 17JUN2025
+2025-06-17 08:36:30,374 - INFO - \u2705 Successfully updated sheet 'SQ5' for 17JUN2025
+2025-06-17 08:36:31,688 - INFO - \u2705 Successfully updated sheet 'RS7' for 17JUN2025
+2025-06-17 08:36:32,767 - INFO - \u2705 Successfully updated sheet 'Etron' for 17JUN2025
+2025-06-17 08:36:33,760 - INFO - \u2705 Successfully updated sheet 'M3' for 17JUN2025
+2025-06-17 08:36:34,721 - INFO - \u2705 Successfully updated sheet 'M5' for 17JUN2025
+2025-06-17 08:36:35,711 - INFO - \u2705 Successfully updated sheet 'Corvette Z06' for 17JUN2025
+2025-06-17 08:36:36,709 - INFO - \u2705 Successfully updated sheet 'Corvette ZR1' for 17JUN2025
+2025-06-17 08:36:37,695 - INFO - \u2705 Successfully updated sheet 'Charger' for 17JUN2025
+2025-06-17 08:36:38,664 - INFO - \u2705 Successfully updated sheet '458 Italia' for 17JUN2025
+2025-06-17 08:36:39,665 - INFO - \u2705 Successfully updated sheet 'F250' for 17JUN2025
+2025-06-17 08:36:40,666 - INFO - \u2705 Successfully updated sheet 'GT' for 17JUN2025
+2025-06-17 08:36:41,682 - INFO - \u2705 Successfully updated sheet 'Accord' for 17JUN2025
+2025-06-17 08:36:42,668 - INFO - \u2705 Successfully updated sheet 'S2000' for 17JUN2025
+2025-06-17 08:36:43,685 - INFO - \u2705 Successfully updated sheet 'Wrangler' for 17JUN2025
+2025-06-17 08:36:44,687 - INFO - \u2705 Successfully updated sheet 'Aventador' for 17JUN2025
+2025-06-17 08:36:45,703 - INFO - \u2705 Successfully updated sheet 'Gallardo' for 17JUN2025
+2025-06-17 08:36:46,688 - INFO - \u2705 Successfully updated sheet 'Huracan' for 17JUN2025
+2025-06-17 08:36:47,752 - INFO - \u2705 Successfully updated sheet 'Murcielago' for 17JUN2025
+2025-06-17 08:36:48,731 - INFO - \u2705 Successfully updated sheet 'Urus' for 17JUN2025
+2025-06-17 08:36:49,746 - INFO - \u2705 Successfully updated sheet 'AMG' for 17JUN2025
+2025-06-17 08:36:50,732 - INFO - \u2705 Successfully updated sheet 'C63 AMG' for 17JUN2025
+2025-06-17 08:36:52,084 - INFO - \u2705 Successfully updated sheet 'G Wagon' for 17JUN2025
+2025-06-17 08:36:53,131 - INFO - \u2705 Successfully updated sheet 'S550' for 17JUN2025
+2025-06-17 08:36:54,104 - INFO - \u2705 Successfully updated sheet 'Carrera S' for 17JUN2025
+2025-06-17 08:36:55,070 - INFO - \u2705 Successfully updated sheet 'GT3' for 17JUN2025
+2025-06-17 08:36:56,056 - INFO - \u2705 Successfully updated sheet 'GT3RS' for 17JUN2025
+2025-06-17 08:36:57,019 - INFO - \u2705 Successfully updated sheet 'GT4' for 17JUN2025
+2025-06-17 08:36:58,057 - INFO - \u2705 Successfully updated sheet 'GT4RS' for 17JUN2025
+2025-06-17 08:36:59,231 - INFO - \u2705 Successfully updated sheet 'Cayenne' for 17JUN2025
+2025-06-17 08:37:00,357 - INFO - \u2705 Successfully updated sheet 'Macan' for 17JUN2025
+2025-06-17 08:37:02,720 - INFO - \u2705 Successfully updated sheet 'Taycan' for 17JUN2025
+2025-06-17 08:37:05,560 - INFO - \u2705 Successfully updated sheet '718 Cayman' for 17JUN2025
+2025-06-17 08:37:08,430 - INFO - \u2705 Successfully updated sheet '718 Boxster' for 17JUN2025
+2025-06-17 08:37:09,652 - INFO - \u2705 Successfully updated sheet 'BRZ' for 17JUN2025
+2025-06-17 08:37:10,697 - INFO - \u2705 Successfully updated sheet 'CyberTruck' for 17JUN2025
+2025-06-17 08:37:11,688 - INFO - \u2705 Successfully updated sheet 'Model 3' for 17JUN2025
+2025-06-17 08:37:12,990 - INFO - \u2705 Successfully updated sheet 'Model X' for 17JUN2025
+2025-06-17 08:37:14,125 - INFO - \u2705 Successfully updated sheet 'Model Y' for 17JUN2025
+2025-06-17 08:37:15,109 - INFO - \u2705 Successfully updated sheet 'Model S' for 17JUN2025
+2025-06-17 08:37:16,131 - INFO - \u2705 Successfully updated sheet 'RAV4' for 17JUN2025
+2025-06-17 18:44:21,769 - INFO - \u2705 Loaded 44 URLs from car_urls.txt
+2025-06-17 18:44:24,335 - INFO - \u2705 Successfully updated sheet 'R8' for 17JUN2025
+2025-06-17 18:44:26,539 - INFO - \u2705 Successfully updated sheet 'RS4' for 17JUN2025
+2025-06-17 18:44:28,679 - INFO - \u2705 Successfully updated sheet 'S4' for 17JUN2025
+2025-06-17 18:44:31,415 - INFO - \u2705 Successfully updated sheet 'Q5' for 17JUN2025
+2025-06-17 18:44:33,276 - INFO - \u2705 Successfully updated sheet 'SQ5' for 17JUN2025
+2025-06-17 18:44:35,043 - INFO - \u2705 Successfully updated sheet 'RS7' for 17JUN2025
+2025-06-17 18:44:36,329 - INFO - \u2705 Successfully updated sheet 'Etron' for 17JUN2025
+2025-06-17 18:44:37,677 - INFO - \u2705 Successfully updated sheet 'M3' for 17JUN2025
+2025-06-17 18:44:38,728 - INFO - \u2705 Successfully updated sheet 'M5' for 17JUN2025
+2025-06-17 18:44:39,738 - INFO - \u2705 Successfully updated sheet 'Corvette Z06' for 17JUN2025
+2025-06-17 18:44:40,755 - INFO - \u2705 Successfully updated sheet 'Corvette ZR1' for 17JUN2025
+2025-06-17 18:44:41,772 - INFO - \u2705 Successfully updated sheet 'Charger' for 17JUN2025
+2025-06-17 18:44:43,251 - INFO - \u2705 Successfully updated sheet '458 Italia' for 17JUN2025
+2025-06-17 18:44:44,352 - INFO - \u2705 Successfully updated sheet 'F250' for 17JUN2025
+2025-06-17 18:44:45,398 - INFO - \u2705 Successfully updated sheet 'GT' for 17JUN2025
+2025-06-17 18:44:46,530 - INFO - \u2705 Successfully updated sheet 'Accord' for 17JUN2025
+2025-06-17 18:44:47,555 - INFO - \u2705 Successfully updated sheet 'S2000' for 17JUN2025
+2025-06-17 18:44:48,828 - INFO - \u2705 Successfully updated sheet 'Wrangler' for 17JUN2025
+2025-06-17 18:44:49,857 - INFO - \u2705 Successfully updated sheet 'Aventador' for 17JUN2025
+2025-06-17 18:44:51,144 - INFO - \u2705 Successfully updated sheet 'Gallardo' for 17JUN2025
+2025-06-17 18:44:52,162 - INFO - \u2705 Successfully updated sheet 'Huracan' for 17JUN2025
+2025-06-17 18:44:53,214 - INFO - \u2705 Successfully updated sheet 'Murcielago' for 17JUN2025
+2025-06-17 18:44:54,260 - INFO - \u2705 Successfully updated sheet 'Urus' for 17JUN2025
+2025-06-17 18:44:55,333 - INFO - \u2705 Successfully updated sheet 'AMG' for 17JUN2025
+2025-06-17 18:44:56,527 - INFO - \u2705 Successfully updated sheet 'C63 AMG' for 17JUN2025
+2025-06-17 18:44:59,749 - INFO - \u2705 Successfully updated sheet 'G Wagon' for 17JUN2025
+2025-06-17 18:45:03,049 - INFO - \u2705 Successfully updated sheet 'S550' for 17JUN2025
+2025-06-17 18:45:06,077 - INFO - \u2705 Successfully updated sheet 'Carrera S' for 17JUN2025
+2025-06-17 18:45:08,292 - INFO - \u2705 Successfully updated sheet 'GT3' for 17JUN2025
+2025-06-17 18:45:09,519 - INFO - \u2705 Successfully updated sheet 'GT3RS' for 17JUN2025
+2025-06-17 18:45:11,015 - INFO - \u2705 Successfully updated sheet 'GT4' for 17JUN2025
+2025-06-17 18:45:12,550 - INFO - \u2705 Successfully updated sheet 'GT4RS' for 17JUN2025
+2025-06-17 18:45:13,920 - INFO - \u2705 Successfully updated sheet 'Cayenne' for 17JUN2025
+2025-06-17 18:45:15,325 - INFO - \u2705 Successfully updated sheet 'Macan' for 17JUN2025
+2025-06-17 18:45:16,498 - INFO - \u2705 Successfully updated sheet 'Taycan' for 17JUN2025
+2025-06-17 18:45:17,890 - INFO - \u2705 Successfully updated sheet '718 Cayman' for 17JUN2025
+2025-06-17 18:45:18,939 - INFO - \u2705 Successfully updated sheet '718 Boxster' for 17JUN2025
+2025-06-17 18:45:19,995 - INFO - \u2705 Successfully updated sheet 'BRZ' for 17JUN2025
+2025-06-17 18:45:21,069 - INFO - \u2705 Successfully updated sheet 'CyberTruck' for 17JUN2025
+2025-06-17 18:45:22,081 - INFO - \u2705 Successfully updated sheet 'Model 3' for 17JUN2025
+2025-06-17 18:45:23,089 - INFO - \u2705 Successfully updated sheet 'Model X' for 17JUN2025
+2025-06-17 18:45:24,096 - INFO - \u2705 Successfully updated sheet 'Model Y' for 17JUN2025
+2025-06-17 18:45:25,140 - INFO - \u2705 Successfully updated sheet 'Model S' for 17JUN2025
+2025-06-17 18:45:26,207 - INFO - \u2705 Successfully updated sheet 'RAV4' for 17JUN2025
+2025-06-18 08:53:31,912 - INFO - \u2705 Loaded 44 URLs from car_urls.txt
+2025-06-18 08:53:34,167 - INFO - \u2705 Successfully updated sheet 'R8' for 18JUN2025
+2025-06-18 08:53:36,427 - INFO - \u2705 Successfully updated sheet 'RS4' for 18JUN2025
+2025-06-18 08:53:38,932 - INFO - \u2705 Successfully updated sheet 'S4' for 18JUN2025
+2025-06-18 08:53:40,918 - INFO - \u2705 Successfully updated sheet 'Q5' for 18JUN2025
+2025-06-18 08:53:43,075 - INFO - \u2705 Successfully updated sheet 'SQ5' for 18JUN2025
+2025-06-18 08:53:44,513 - INFO - \u2705 Successfully updated sheet 'RS7' for 18JUN2025
+2025-06-18 08:53:45,949 - INFO - \u2705 Successfully updated sheet 'Etron' for 18JUN2025
+2025-06-18 08:53:47,171 - INFO - \u2705 Successfully updated sheet 'M3' for 18JUN2025
+2025-06-18 08:53:48,313 - INFO - \u2705 Successfully updated sheet 'M5' for 18JUN2025
+2025-06-18 08:53:49,567 - INFO - \u2705 Successfully updated sheet 'Corvette Z06' for 18JUN2025
+2025-06-18 08:53:50,887 - INFO - \u2705 Successfully updated sheet 'Corvette ZR1' for 18JUN2025
+2025-06-18 08:53:52,012 - INFO - \u2705 Successfully updated sheet 'Charger' for 18JUN2025
+2025-06-18 08:53:53,164 - INFO - \u2705 Successfully updated sheet '458 Italia' for 18JUN2025
+2025-06-18 08:53:54,296 - INFO - \u2705 Successfully updated sheet 'F250' for 18JUN2025
+2025-06-18 08:53:55,345 - INFO - \u2705 Successfully updated sheet 'GT' for 18JUN2025
+2025-06-18 08:53:56,469 - INFO - \u2705 Successfully updated sheet 'Accord' for 18JUN2025
+2025-06-18 08:53:57,586 - INFO - \u2705 Successfully updated sheet 'S2000' for 18JUN2025
+2025-06-18 08:53:58,695 - INFO - \u2705 Successfully updated sheet 'Wrangler' for 18JUN2025
+2025-06-18 08:54:00,038 - INFO - \u2705 Successfully updated sheet 'Aventador' for 18JUN2025
+2025-06-18 08:54:01,271 - INFO - \u2705 Successfully updated sheet 'Gallardo' for 18JUN2025
+2025-06-18 08:54:02,515 - INFO - \u2705 Successfully updated sheet 'Huracan' for 18JUN2025
+2025-06-18 08:54:04,096 - INFO - \u2705 Successfully updated sheet 'Murcielago' for 18JUN2025
+2025-06-18 08:54:05,401 - INFO - \u2705 Successfully updated sheet 'Urus' for 18JUN2025
+2025-06-18 08:54:06,960 - INFO - \u2705 Successfully updated sheet 'AMG' for 18JUN2025
+2025-06-18 08:54:10,586 - INFO - \u2705 Successfully updated sheet 'C63 AMG' for 18JUN2025
+2025-06-18 08:54:14,156 - INFO - \u2705 Successfully updated sheet 'G Wagon' for 18JUN2025
+2025-06-18 08:54:16,388 - INFO - \u2705 Successfully updated sheet 'S550' for 18JUN2025
+2025-06-18 08:54:18,024 - INFO - \u2705 Successfully updated sheet 'Carrera S' for 18JUN2025
+2025-06-18 08:54:19,173 - INFO - \u2705 Successfully updated sheet 'GT3' for 18JUN2025
+2025-06-18 08:54:20,457 - INFO - \u2705 Successfully updated sheet 'GT3RS' for 18JUN2025
+2025-06-18 08:54:21,982 - INFO - \u2705 Successfully updated sheet 'GT4' for 18JUN2025
+2025-06-18 08:54:23,095 - INFO - \u2705 Successfully updated sheet 'GT4RS' for 18JUN2025
+2025-06-18 08:54:24,222 - INFO - \u2705 Successfully updated sheet 'Cayenne' for 18JUN2025
+2025-06-18 08:54:25,330 - INFO - \u2705 Successfully updated sheet 'Macan' for 18JUN2025
+2025-06-18 08:54:26,509 - INFO - \u2705 Successfully updated sheet 'Taycan' for 18JUN2025
+2025-06-18 08:54:27,597 - INFO - \u2705 Successfully updated sheet '718 Cayman' for 18JUN2025
+2025-06-18 08:54:28,805 - INFO - \u2705 Successfully updated sheet '718 Boxster' for 18JUN2025
+2025-06-18 08:54:29,932 - INFO - \u2705 Successfully updated sheet 'BRZ' for 18JUN2025
+2025-06-18 08:54:31,172 - INFO - \u2705 Successfully updated sheet 'CyberTruck' for 18JUN2025
+2025-06-18 08:54:32,399 - INFO - \u2705 Successfully updated sheet 'Model 3' for 18JUN2025
+2025-06-18 08:54:33,503 - INFO - \u2705 Successfully updated sheet 'Model X' for 18JUN2025
+2025-06-18 08:54:34,615 - INFO - \u2705 Successfully updated sheet 'Model Y' for 18JUN2025
+2025-06-18 08:54:35,589 - INFO - \u2705 Successfully updated sheet 'Model S' for 18JUN2025
+2025-06-18 08:54:36,594 - INFO - \u2705 Successfully updated sheet 'RAV4' for 18JUN2025
+2025-06-19 07:42:22,947 - INFO - \u2705 Loaded 44 URLs from car_urls.txt
+2025-06-19 07:42:24,401 - INFO - \u2705 Successfully updated sheet 'R8' for 19JUN2025
+2025-06-19 07:42:25,592 - INFO - \u2705 Successfully updated sheet 'RS4' for 19JUN2025
+2025-06-19 07:42:27,572 - INFO - \u2705 Successfully updated sheet 'S4' for 19JUN2025
+2025-06-19 07:42:33,269 - INFO - \u2705 Successfully updated sheet 'Q5' for 19JUN2025
+2025-06-19 07:42:37,664 - INFO - \u2705 Successfully updated sheet 'SQ5' for 19JUN2025
+2025-06-19 07:42:40,415 - INFO - \u2705 Successfully updated sheet 'RS7' for 19JUN2025
+2025-06-19 07:42:41,668 - INFO - \u2705 Successfully updated sheet 'Etron' for 19JUN2025
+2025-06-19 07:42:42,716 - INFO - \u2705 Successfully updated sheet 'M3' for 19JUN2025
+2025-06-19 07:42:43,749 - INFO - \u2705 Successfully updated sheet 'M5' for 19JUN2025
+2025-06-19 07:42:45,169 - INFO - \u2705 Successfully updated sheet 'Corvette Z06' for 19JUN2025
+2025-06-19 07:42:46,518 - INFO - \u2705 Successfully updated sheet 'Corvette ZR1' for 19JUN2025
+2025-06-19 07:42:47,791 - INFO - \u2705 Successfully updated sheet 'Charger' for 19JUN2025
+2025-06-19 07:42:49,029 - INFO - \u2705 Successfully updated sheet '458 Italia' for 19JUN2025
+2025-06-19 07:42:50,351 - INFO - \u2705 Successfully updated sheet 'F250' for 19JUN2025
+2025-06-19 07:42:51,602 - INFO - \u2705 Successfully updated sheet 'GT' for 19JUN2025
+2025-06-19 07:42:52,713 - INFO - \u2705 Successfully updated sheet 'Accord' for 19JUN2025
+2025-06-19 07:42:53,872 - INFO - \u2705 Successfully updated sheet 'S2000' for 19JUN2025
+2025-06-19 07:42:55,621 - INFO - \u2705 Successfully updated sheet 'Wrangler' for 19JUN2025
+2025-06-19 07:42:56,966 - INFO - \u2705 Successfully updated sheet 'Aventador' for 19JUN2025
+2025-06-19 07:42:58,687 - INFO - \u2705 Successfully updated sheet 'Gallardo' for 19JUN2025
+2025-06-19 07:43:01,788 - INFO - \u2705 Successfully updated sheet 'Huracan' for 19JUN2025
+2025-06-19 07:43:04,936 - INFO - \u2705 Successfully updated sheet 'Murcielago' for 19JUN2025
+2025-06-19 07:43:07,746 - INFO - \u2705 Successfully updated sheet 'Urus' for 19JUN2025
+2025-06-19 07:43:09,058 - INFO - \u2705 Successfully updated sheet 'AMG' for 19JUN2025
+2025-06-19 07:43:10,234 - INFO - \u2705 Successfully updated sheet 'C63 AMG' for 19JUN2025
+2025-06-19 07:43:11,759 - INFO - \u2705 Successfully updated sheet 'G Wagon' for 19JUN2025
+2025-06-19 07:43:12,746 - INFO - \u2705 Successfully updated sheet 'S550' for 19JUN2025
+2025-06-19 07:43:13,841 - INFO - \u2705 Successfully updated sheet 'Carrera S' for 19JUN2025
+2025-06-19 07:43:14,932 - INFO - \u2705 Successfully updated sheet 'GT3' for 19JUN2025
+2025-06-19 07:43:15,917 - INFO - \u2705 Successfully updated sheet 'GT3RS' for 19JUN2025
+2025-06-19 07:43:16,889 - INFO - \u2705 Successfully updated sheet 'GT4' for 19JUN2025
+2025-06-19 07:43:17,832 - INFO - \u2705 Successfully updated sheet 'GT4RS' for 19JUN2025
+2025-06-19 07:43:18,816 - INFO - \u2705 Successfully updated sheet 'Cayenne' for 19JUN2025
+2025-06-19 07:43:19,959 - INFO - \u2705 Successfully updated sheet 'Macan' for 19JUN2025
+2025-06-19 07:43:21,049 - INFO - \u2705 Successfully updated sheet 'Taycan' for 19JUN2025
+2025-06-19 07:43:22,113 - INFO - \u2705 Successfully updated sheet '718 Cayman' for 19JUN2025
+2025-06-19 07:43:23,129 - INFO - \u2705 Successfully updated sheet '718 Boxster' for 19JUN2025
+2025-06-19 07:43:24,177 - INFO - \u2705 Successfully updated sheet 'BRZ' for 19JUN2025
+2025-06-19 07:43:25,230 - INFO - \u2705 Successfully updated sheet 'CyberTruck' for 19JUN2025
+2025-06-19 07:43:26,242 - INFO - \u2705 Successfully updated sheet 'Model 3' for 19JUN2025
+2025-06-19 07:43:27,305 - INFO - \u2705 Successfully updated sheet 'Model X' for 19JUN2025
+2025-06-19 07:43:28,353 - INFO - \u2705 Successfully updated sheet 'Model Y' for 19JUN2025
+2025-06-19 07:43:29,448 - INFO - \u2705 Successfully updated sheet 'Model S' for 19JUN2025
+2025-06-19 07:43:30,481 - INFO - \u2705 Successfully updated sheet 'RAV4' for 19JUN2025
+2025-06-19 22:59:15,517 - INFO - \u2705 Loaded 44 URLs from car_urls.txt
+2025-06-20 09:00:59,506 - INFO - \u2705 Loaded 44 URLs from car_urls.txt
+2025-06-20 09:04:59,175 - INFO - \u2705 Loaded 44 URLs from car_urls.txt
+2025-06-20 09:09:08,454 - INFO - \u2705 Loaded 44 URLs from car_urls.txt
+2025-06-20 09:13:38,974 - INFO - \u2705 Loaded 44 URLs from car_urls.txt
+2025-06-20 09:16:47,008 - INFO - \u2705 Loaded 44 URLs from car_urls.txt
+2025-06-20 09:20:13,560 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='www.autotrader.com', port=443): Read timed out. (read timeout=10)")': /rest/lsc/crawl/modelyears?searchRadius=0&sortBy=derivedpriceASC&zip=32216&allListingType=all-cars&vehicleStyleCode=COUPE&engineCode=10CLDR&makeCode=AUDI&modelCode=R8&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D
+2025-06-20 09:20:25,602 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='www.autotrader.com', port=443): Read timed out. (read timeout=10)")': /rest/lsc/crawl/modelyears?searchRadius=0&sortBy=derivedpriceASC&zip=32216&allListingType=all-cars&vehicleStyleCode=COUPE&engineCode=10CLDR&makeCode=AUDI&modelCode=R8&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D
+2025-06-20 09:20:39,631 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='www.autotrader.com', port=443): Read timed out. (read timeout=10)")': /rest/lsc/crawl/modelyears?searchRadius=0&sortBy=derivedpriceASC&zip=32216&allListingType=all-cars&vehicleStyleCode=COUPE&engineCode=10CLDR&makeCode=AUDI&modelCode=R8&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D
+2025-06-20 09:20:59,717 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='www.autotrader.com', port=443): Read timed out. (read timeout=10)")': /rest/lsc/crawl/modelyears?marketExtension=include&numRecords=24&searchRadius=0&showAccelerateBanner=false&sortBy=derivedpriceASC&zip=32216&allListingType=all-cars&makeCode=AUDI&modelCode=RS4&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D
+2025-06-20 09:21:11,760 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='www.autotrader.com', port=443): Read timed out. (read timeout=10)")': /rest/lsc/crawl/modelyears?marketExtension=include&numRecords=24&searchRadius=0&showAccelerateBanner=false&sortBy=derivedpriceASC&zip=32216&allListingType=all-cars&makeCode=AUDI&modelCode=RS4&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D
+2025-06-20 09:21:25,840 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='www.autotrader.com', port=443): Read timed out. (read timeout=10)")': /rest/lsc/crawl/modelyears?marketExtension=include&numRecords=24&searchRadius=0&showAccelerateBanner=false&sortBy=derivedpriceASC&zip=32216&allListingType=all-cars&makeCode=AUDI&modelCode=RS4&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D
+2025-06-20 09:21:51,546 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='www.autotrader.com', port=443): Read timed out. (read timeout=10)")': /rest/lsc/crawl/modelyears?searchRadius=0&sortBy=derivedpriceASC&zip=32216&allListingType=all-cars&vehicleStyleCode=COUPE&engineCode=10CLDR&makeCode=AUDI&modelCode=R8&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D
+2025-06-20 09:22:03,588 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='www.autotrader.com', port=443): Read timed out. (read timeout=10)")': /rest/lsc/crawl/modelyears?searchRadius=0&sortBy=derivedpriceASC&zip=32216&allListingType=all-cars&vehicleStyleCode=COUPE&engineCode=10CLDR&makeCode=AUDI&modelCode=R8&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D
+2025-06-20 09:22:17,631 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='www.autotrader.com', port=443): Read timed out. (read timeout=10)")': /rest/lsc/crawl/modelyears?searchRadius=0&sortBy=derivedpriceASC&zip=32216&allListingType=all-cars&vehicleStyleCode=COUPE&engineCode=10CLDR&makeCode=AUDI&modelCode=R8&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D
+2025-06-20 09:22:37,697 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='www.autotrader.com', port=443): Read timed out. (read timeout=10)")': /rest/lsc/crawl/modelyears?marketExtension=include&numRecords=24&searchRadius=0&showAccelerateBanner=false&sortBy=derivedpriceASC&zip=32216&allListingType=all-cars&makeCode=AUDI&modelCode=RS4&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D
+2025-06-20 09:22:49,751 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='www.autotrader.com', port=443): Read timed out. (read timeout=10)")': /rest/lsc/crawl/modelyears?marketExtension=include&numRecords=24&searchRadius=0&showAccelerateBanner=false&sortBy=derivedpriceASC&zip=32216&allListingType=all-cars&makeCode=AUDI&modelCode=RS4&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D
+2025-06-20 09:23:03,786 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='www.autotrader.com', port=443): Read timed out. (read timeout=10)")': /rest/lsc/crawl/modelyears?marketExtension=include&numRecords=24&searchRadius=0&showAccelerateBanner=false&sortBy=derivedpriceASC&zip=32216&allListingType=all-cars&makeCode=AUDI&modelCode=RS4&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D
+2025-06-20 09:23:23,851 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='www.autotrader.com', port=443): Read timed out. (read timeout=10)")': /rest/lsc/crawl/modelyears?marketExtension=include&numRecords=24&searchRadius=500&showAccelerateBanner=false&sortBy=derivedpriceASC&startYear=2013&zip=32216&allListingType=all-cars&makeCode=AUDI&modelCode=S4&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D
+2025-06-20 09:23:35,881 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='www.autotrader.com', port=443): Read timed out. (read timeout=10)")': /rest/lsc/crawl/modelyears?marketExtension=include&numRecords=24&searchRadius=500&showAccelerateBanner=false&sortBy=derivedpriceASC&startYear=2013&zip=32216&allListingType=all-cars&makeCode=AUDI&modelCode=S4&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D
+2025-06-20 09:23:49,941 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='www.autotrader.com', port=443): Read timed out. (read timeout=10)")': /rest/lsc/crawl/modelyears?marketExtension=include&numRecords=24&searchRadius=500&showAccelerateBanner=false&sortBy=derivedpriceASC&startYear=2013&zip=32216&allListingType=all-cars&makeCode=AUDI&modelCode=S4&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D
+2025-06-20 09:24:10,061 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='www.autotrader.com', port=443): Read timed out. (read timeout=10)")': /rest/lsc/crawl/modelyears?mileage=75000&searchRadius=0&sortBy=derivedpriceASC&zip=32216&allListingType=all-cars&makeCode=AUDI&modelCode=Q5&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D
+2025-06-20 09:24:22,108 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='www.autotrader.com', port=443): Read timed out. (read timeout=10)")': /rest/lsc/crawl/modelyears?mileage=75000&searchRadius=0&sortBy=derivedpriceASC&zip=32216&allListingType=all-cars&makeCode=AUDI&modelCode=Q5&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D
+2025-06-20 09:24:36,149 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='www.autotrader.com', port=443): Read timed out. (read timeout=10)")': /rest/lsc/crawl/modelyears?mileage=75000&searchRadius=0&sortBy=derivedpriceASC&zip=32216&allListingType=all-cars&makeCode=AUDI&modelCode=Q5&city=Jacksonville&state=FL&location=%5Bobject+Object%5D&dma=%5Bobject+Object%5D
