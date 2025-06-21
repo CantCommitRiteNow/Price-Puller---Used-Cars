@@ -1,0 +1,26 @@
+name: Daily Run - Price Puller
+
+on:
+  schedule:
+    - cron: '0 7 * * *'  # Runs daily at 07:00 UTC
+  workflow_dispatch:      # Optional manual trigger from GitHub UI
+
+jobs:
+  run-price-puller:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'  # Adjust as needed
+
+      - name: Install dependencies (if any)
+        run: |
+          pip install -r requirements.txt || echo "No requirements.txt found."
+
+      - name: Run Price_Puller.py script
+        run: python "Price_Puller.py"
