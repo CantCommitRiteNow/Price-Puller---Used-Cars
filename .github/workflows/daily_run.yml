@@ -24,3 +24,17 @@ jobs:
 
       - name: Run Price_Puller.py script
         run: python "Price_Puller.py"
+
+      - name: Configure Git for commit
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit and push updated Excel file
+        env:
+          TOKEN: ${{ secrets.PAT }}
+        run: |
+          git remote set-url origin https://x-access-token:${TOKEN}@github.com/${{ github.repository }}
+          git add Price_Puller.xlsx
+          git commit -m "Update Excel file from daily run" || echo "No changes to commit"
+          git push
