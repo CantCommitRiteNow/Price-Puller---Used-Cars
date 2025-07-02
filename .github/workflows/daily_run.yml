@@ -34,7 +34,6 @@ jobs:
         env:
           TOKEN: ${{ secrets.PAT }}
         run: |
-          git remote set-url origin https://x-access-token:${TOKEN}@github.com/${{ github.repository }}
           git add Price_Puller.xlsx
           git commit -m "Update Excel file from daily run" || echo "No changes to commit"
           git push
